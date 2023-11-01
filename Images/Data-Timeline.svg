@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="268.54807mm"
+   height="75.564697mm"
+   viewBox="0 0 268.54806 75.564697"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="Data-Timeline.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.74394518"
+     inkscape:cx="478.52988"
+     inkscape:cy="96.109232"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="268.54807"
+       height="75.564697"
+       id="page22"
+       margin="369.65088 0 138.45107"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect22"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,1,1,0,0.87198006,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.87198006,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.87198006,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.715501,-97.803461)">
+    <g
+       id="g16"
+       transform="translate(1.5088908,47.027096)">
+      <path
+         d="m 266.26908,81.105333 v 4.524073 H 19.615401 v 3.77238 H 266.26908 v 4.52459 a 0.50342221,0.50342221 29.999226 0 0 0.75515,0.43597 l 5.55196,-3.205629 5.55143,-3.20513 a 0.50343924,0.50343924 90 0 0 0,-0.871982 l -5.55143,-3.20513 -5.55194,-3.205158 a 0.50345795,0.50345795 149.99901 0 0 -0.75517,0.436016 z"
+         style="fill:#0088aa;stroke-width:0.28616;stroke-linecap:round;stroke-linejoin:round"
+         id="path21"
+         inkscape:path-effect="#path-effect22"
+         inkscape:original-d="m 266.26908,80.233353 v 5.396053 H 19.615401 v 3.77238 H 266.26908 v 5.39657 l 6.30711,-3.641639 6.30659,-3.641121 -6.30659,-3.641121 z" />
+      <circle
+         style="fill:#afdde9;stroke:#0088aa;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path1"
+         cx="38.429508"
+         cy="87.515663"
+         r="4.2858176" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="25.962376"
+         y="103.1382"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="25.962376"
+           y="103.1382">1983</tspan></text>
+      <circle
+         style="fill:#afdde9;stroke:#0088aa;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle2"
+         cx="164.22319"
+         cy="87.515663"
+         r="4.2858176" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="151.54439"
+         y="103.1382"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="151.54439"
+           y="103.1382">2007</tspan></text>
+      <circle
+         style="fill:#afdde9;stroke:#0088aa;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle3"
+         cx="250.22769"
+         cy="87.515663"
+         r="4.2858176" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="237.51714"
+         y="103.1382"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="237.51714"
+           y="103.1382">2019</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.77331px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.169333"
+         x="97.269508"
+         y="101.76995"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           x="97.269508"
+           y="101.76995">extracted from </tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.128px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           x="97.269508"
+           y="111.51916"
+           id="tspan8">pathology reports</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.77331px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.169333"
+         x="206.88484"
+         y="67.934921"
+         id="text10"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           x="206.88484"
+           y="67.934921">obtained from </tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.128px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           x="206.88484"
+           y="77.684128"
+           id="tspan10">melanoma registry</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 38.429509,120.73051 H 164.22318"
+         id="path10" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.218773px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 164.22319,56.713696 h 86.0045"
+         id="path11" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 38.429509,120.73051 V 107.22816"
+         id="path12" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 164.22318,120.73051 V 107.40599"
+         id="path13" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 164.22319,56.713696 V 74.864107"
+         id="path14" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 250.22769,56.713696 V 74.508457"
+         id="path15" />
+      <path
+         sodipodi:type="star"
+         style="fill:#afdde9;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path22"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="1007.1307"
+         sodipodi:cy="338.06253"
+         sodipodi:r1="27.970678"
+         sodipodi:r2="13.98534"
+         sodipodi:arg1="0.52359878"
+         sodipodi:arg2="1.5707963"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 1031.354,352.04787 -24.2233,0 -24.22334,0 12.11166,-20.97801 12.11168,-20.97801 12.1116,20.97801 z"
+         transform="matrix(0,0.13743268,-0.13743268,0,316.66776,-50.897005)"
+         inkscape:transform-center-x="-0.96102107"
+         inkscape:transform-center-y="-2.3535644e-06" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14.1111px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="20.60218"
+       y="-38.422005"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="font-size:14.1111px;stroke-width:0.264583"
+         x="20.60218"
+         y="-38.422005">all <tspan
+   style="fill:#008080;stroke:#008080"
+   id="tspan17">histologically verified</tspan> first <tspan
+   style="fill:#008080;stroke:#008080"
+   id="tspan18">primary cases</tspan> </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:14.1111px;stroke-width:0.264583"
+         x="20.60218"
+         y="-20.783129"
+         id="tspan16">age <tspan
+   style="fill:#00aad4;stroke:#00aad4"
+   id="tspan19">between 15 and 90</tspan>.</tspan></text>
+  </g>
+</svg>

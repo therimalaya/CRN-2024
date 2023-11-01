@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="bar-nvd3"
+   class="nvd3-svg"
+   version="1.1"
+   sodipodi:docname="GLOBOCAN.svg"
+   width="1870.6735"
+   height="2187.9343"
+   xml:space="preserve"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview80"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.35583333"
+     inkscape:cx="840.28104"
+     inkscape:cy="1465.5738"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g19"><inkscape:page
+       x="0"
+       y="0"
+       width="1870.6735"
+       height="2187.9343"
+       id="page80"
+       margin="0 0 0"
+       bleed="0" /></sodipodi:namedview><defs
+     id="defs1"><style
+       type="text/css"
+       id="style1">@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700');<![CDATA[svg{font-family: 'Noto Sans';}svg{font-family: 'Noto Sans';}
+body { -webkit-print-color-adjust: exact; }
+svg, tspan, text { font-family: "Noto Sans", Arial; }
+text#chart-title { font-weight: 700; }
+.highcharts-data-labels text, .highcharts-data-labels tspan { font-size: 14px; }
+svg text { font-size: 12px; }
+svg text.chart-title, svg text.chart-total, svg text.highcharts-title, svg text.highcharts-title tspan { fill: rgb(0, 0, 0); font-weight: 700 !important; font-size: 14px !important; display: block !important; }
+rect.background_title { display: none; }
+.nvd3 .nv-axis line { fill: none; stroke: rgb(229, 229, 229); shape-rendering: crispedges; }
+.nvd3 .nv-axis path { fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 0.75; shape-rendering: crispedges; }
+.nvd3 .nv-discretebar .nv-groups text, .nvd3 .nv-multibarHorizontal .nv-groups text { font-weight: 700; fill: black; stroke: transparent; }
+.link { stroke: rgb(153, 153, 153); stroke-opacity: 0.6; stroke-width: 0.5; display: inline; }
+.ribbon-mouse path { fill-opacity: 0; }
+.ribbon path { stroke-opacity: 0; fill-opacity: 0.5; }
+.dimension rect { stroke: none; fill-opacity: 0; }
+.dimension line { stroke: rgb(0, 0, 0); stroke-width: 2; }
+.dimension tspan.sort { fill: rgb(0, 0, 0); cursor: pointer; opacity: 0; }
+.dimension tspan.name { font-size: 1.5em; fill: rgb(51, 51, 51); font-weight: bold; }
+path.country, #svg.map-container path.country { pointer-events: all; stroke-width: 0.4px; stroke: rgb(0, 0, 0); }
+.nvd3 .nv-axis line { fill: none; stroke: rgb(229, 229, 229); shape-rendering: crispedges; }
+#bar-nvd3 .nv-y .nvd3.nv-axis g.tick:nth-child(2n) text { display: none; }
+#bar-nvd3 .nv-y .nvd3.nv-axis line.axis_tick { fill: none; stroke: rgb(0, 0, 0); shape-rendering: crispedges; }
+#bar-nvd3 .nv-y .nvd3.nv-axis g.tick text, #bar-nvd3 .multiple-bars-container .nv-y .nv-axis .nv-axisMaxMin text, #bar-nvd3 .nv-y .nv-axis .nv-axisMaxMin text { transform: translate(0px, 6px); }
+#bar-nvd3 .nvd3 .nv-axis .nv-zeroLine line, #bar-nvd3 .nvd3 .nv-axis path { stroke: rgb(0, 0, 0); stroke-width: 1px; }
+#bar-nvd3 .grid line { stroke: rgb(183, 183, 183); stroke-width: 0.5; }
+#bar-nvd3 .axis g.tick line { stroke-width: 0.8; stroke: rgb(0, 0, 0); }
+#bar-nvd3 .nvd3 .nv-x .nv-axis line { stroke: none; }
+#bar-nvd3 .nv-y .nvd3.nv-axis g.tick:first-child line, #bar-nvd3 .nv-y .nvd3.nv-axis g.tick:nth-child(2n) text { display: none; }
+#svg-scatter-plot .axis path { fill: none; stroke: rgb(0, 0, 0) !important; }
+#svg-scatter-plot .axis .tick line { fill: rgb(0, 0, 0); }
+#svg-scatter-plot table.val_tooltip tr td { background: rgb(255, 255, 255); border: 1px solid black; padding: 3px 10px; }
+#svg-scatter-plot text#chart-title { display: none; }
+#svg-scatter-plot #svg-dot svg { height: 500px !important; }
+#svg-scatter-plot .label { text-transform: uppercase; font-size: 100%; font-weight: 500; }
+#svg-scatter-plot .line { fill: none; stroke: steelblue; stroke-width: 2px; }
+#svg-scatter-plot .grid line { stroke: lightgrey; stroke-opacity: 0.7; }
+#svg-scatter-plot .grid g.tick:first-child line { display: none; stroke: none; }
+#svg-scatter-plot .grid path { stroke-width: 0; fill: none; shape-rendering: crispedges; }
+#svg-scatter-plot .y.axis .tick text { transform: translateX(0px); }
+#svg-scatter-plot .x.axis .tick text { transform: translateY(0px); }
+#svg-scatter-plot .legend g.item { cursor: pointer; }
+#svg-scatter-plot .legend g.item:hover text, #svg-scatter-plot .legend g.item.selected text { text-decoration: underline; }
+#svg-scatter-plot .legend g.item:hover rect, #svg-scatter-plot .legend g.item.selected rect { stroke-width: 2px; stroke: rgb(0, 0, 0); }
+#svg-scatter-plot line.mark { shape-rendering: crispedges; }
+#svg-scatter-plot ul.legend { margin-top: 50px; padding-left: 85px !important; }
+#svg-scatter-plot ul.legend li { margin: 0px 10px; display: inline-block; }
+#svg-scatter-plot ul.legend li span { display: inline-block; width: 35px; height: 10px; margin-right: 5px; opacity: 0.8; }
+.dualbars-container text.chart-title, #pyramidBars_d3 text.chart-title { display: none; }
+.dualbars-container path, .dualbars-container line#line_origin, #pyramidBars_d3 path, #pyramidBars_d3 line#line_origin { shape-rendering: crispedges; stroke: rgb(0, 0, 0); fill: none; stroke-width: 0.5px; }
+.dualbars-container .grid line, #pyramidBars_d3 .grid line { stroke: rgb(183, 183, 183); stroke-width: 0.5; }
+.dualbars-container .axis.y line, #pyramidBars_d3 .axis.y line { display: none; }
+.dualbars-container .axis.y path, #pyramidBars_d3 .axis.y path { display: none !important; }
+.dualbars-container .texts_shared, #pyramidBars_d3 .texts_shared { display: none; }
+#pyramidBars_d3 { min-height: 700px; margin-top: 0px; }
+#pyramidBars_d3 text.dual-label { font-weight: 700; }
+#pyramidBars_d3 g.dual_bars_g { transform: translate(0px, 80px); }
+#pyramidBars_d3 text.bottom_legend, #pyramidBars_d3 text.copyright, #pyramidBars_d3 image.copyright { transform: translate(0px, 100px); }
+#pyramidBars_d3 g.legendOrdinal { transform: translate(-110px, -35px); }
+#pyramidBars_d3 g.legendOrdinal text#text-0 { transform: translate(40px, 15px); }
+#pyramidBars_d3 g.legendOrdinal rect#rect-1 { transform: translate(115px, 0px); }
+#pyramidBars_d3 g.legendOrdinal text#text-1 { transform: translate(155px, 15px); }
+#pyramidBars_d3 text.hidden { display: none; }]]></style><style
+       type="text/css"
+       id="style1-2">@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700');<![CDATA[svg{font-family: 'Noto Sans';}svg{font-family: 'Noto Sans';}
+body { -webkit-print-color-adjust: exact; }
+svg, tspan, text { font-family: "Noto Sans", Arial; }
+text#chart-title { font-weight: 700; }
+.highcharts-data-labels text, .highcharts-data-labels tspan { font-size: 14px; }
+svg text { font-size: 12px; }
+svg text.chart-title, svg text.chart-total, svg text.highcharts-title, svg text.highcharts-title tspan { fill: rgb(0, 0, 0); font-weight: 700 !important; font-size: 14px !important; display: block !important; }
+rect.background_title { display: none; }
+.nvd3 .nv-axis line { fill: none; stroke: rgb(229, 229, 229); shape-rendering: crispedges; }
+.nvd3 .nv-axis path { fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 0.75; shape-rendering: crispedges; }
+.nvd3 .nv-discretebar .nv-groups text, .nvd3 .nv-multibarHorizontal .nv-groups text { font-weight: 700; fill: black; stroke: transparent; }
+.link { stroke: rgb(153, 153, 153); stroke-opacity: 0.6; stroke-width: 0.5; display: inline; }
+.ribbon-mouse path { fill-opacity: 0; }
+.ribbon path { stroke-opacity: 0; fill-opacity: 0.5; }
+.dimension rect { stroke: none; fill-opacity: 0; }
+.dimension line { stroke: rgb(0, 0, 0); stroke-width: 2; }
+.dimension tspan.sort { fill: rgb(0, 0, 0); cursor: pointer; opacity: 0; }
+.dimension tspan.name { font-size: 1.5em; fill: rgb(51, 51, 51); font-weight: bold; }
+path.country, #svg.map-container path.country { pointer-events: all; stroke-width: 0.4px; stroke: rgb(0, 0, 0); }
+.nvd3 .nv-axis line { fill: none; stroke: rgb(229, 229, 229); shape-rendering: crispedges; }
+#bar-nvd3 .nv-y .nvd3.nv-axis g.tick:nth-child(2n) text { display: none; }
+#bar-nvd3 .nv-y .nvd3.nv-axis line.axis_tick { fill: none; stroke: rgb(0, 0, 0); shape-rendering: crispedges; }
+#bar-nvd3 .nv-y .nvd3.nv-axis g.tick text, #bar-nvd3 .multiple-bars-container .nv-y .nv-axis .nv-axisMaxMin text, #bar-nvd3 .nv-y .nv-axis .nv-axisMaxMin text { transform: translate(0px, 6px); }
+#bar-nvd3 .nvd3 .nv-axis .nv-zeroLine line, #bar-nvd3 .nvd3 .nv-axis path { stroke: rgb(0, 0, 0); stroke-width: 1px; }
+#bar-nvd3 .grid line { stroke: rgb(183, 183, 183); stroke-width: 0.5; }
+#bar-nvd3 .axis g.tick line { stroke-width: 0.8; stroke: rgb(0, 0, 0); }
+#bar-nvd3 .nvd3 .nv-x .nv-axis line { stroke: none; }
+#bar-nvd3 .nv-y .nvd3.nv-axis g.tick:first-child line, #bar-nvd3 .nv-y .nvd3.nv-axis g.tick:nth-child(2n) text { display: none; }
+#svg-scatter-plot .axis path { fill: none; stroke: rgb(0, 0, 0) !important; }
+#svg-scatter-plot .axis .tick line { fill: rgb(0, 0, 0); }
+#svg-scatter-plot table.val_tooltip tr td { background: rgb(255, 255, 255); border: 1px solid black; padding: 3px 10px; }
+#svg-scatter-plot text#chart-title { display: none; }
+#svg-scatter-plot #svg-dot svg { height: 500px !important; }
+#svg-scatter-plot .label { text-transform: uppercase; font-size: 100%; font-weight: 500; }
+#svg-scatter-plot .line { fill: none; stroke: steelblue; stroke-width: 2px; }
+#svg-scatter-plot .grid line { stroke: lightgrey; stroke-opacity: 0.7; }
+#svg-scatter-plot .grid g.tick:first-child line { display: none; stroke: none; }
+#svg-scatter-plot .grid path { stroke-width: 0; fill: none; shape-rendering: crispedges; }
+#svg-scatter-plot .y.axis .tick text { transform: translateX(0px); }
+#svg-scatter-plot .x.axis .tick text { transform: translateY(0px); }
+#svg-scatter-plot .legend g.item { cursor: pointer; }
+#svg-scatter-plot .legend g.item:hover text, #svg-scatter-plot .legend g.item.selected text { text-decoration: underline; }
+#svg-scatter-plot .legend g.item:hover rect, #svg-scatter-plot .legend g.item.selected rect { stroke-width: 2px; stroke: rgb(0, 0, 0); }
+#svg-scatter-plot line.mark { shape-rendering: crispedges; }
+#svg-scatter-plot ul.legend { margin-top: 50px; padding-left: 85px !important; }
+#svg-scatter-plot ul.legend li { margin: 0px 10px; display: inline-block; }
+#svg-scatter-plot ul.legend li span { display: inline-block; width: 35px; height: 10px; margin-right: 5px; opacity: 0.8; }
+.dualbars-container text.chart-title, #pyramidBars_d3 text.chart-title { display: none; }
+.dualbars-container path, .dualbars-container line#line_origin, #pyramidBars_d3 path, #pyramidBars_d3 line#line_origin { shape-rendering: crispedges; stroke: rgb(0, 0, 0); fill: none; stroke-width: 0.5px; }
+.dualbars-container .grid line, #pyramidBars_d3 .grid line { stroke: rgb(183, 183, 183); stroke-width: 0.5; }
+.dualbars-container .axis.y line, #pyramidBars_d3 .axis.y line { display: none; }
+.dualbars-container .axis.y path, #pyramidBars_d3 .axis.y path { display: none !important; }
+.dualbars-container .texts_shared, #pyramidBars_d3 .texts_shared { display: none; }
+#pyramidBars_d3 { min-height: 700px; margin-top: 0px; }
+#pyramidBars_d3 text.dual-label { font-weight: 700; }
+#pyramidBars_d3 g.dual_bars_g { transform: translate(0px, 80px); }
+#pyramidBars_d3 text.bottom_legend, #pyramidBars_d3 text.copyright, #pyramidBars_d3 image.copyright { transform: translate(0px, 100px); }
+#pyramidBars_d3 g.legendOrdinal { transform: translate(-110px, -35px); }
+#pyramidBars_d3 g.legendOrdinal text#text-0 { transform: translate(40px, 15px); }
+#pyramidBars_d3 g.legendOrdinal rect#rect-1 { transform: translate(115px, 0px); }
+#pyramidBars_d3 g.legendOrdinal text#text-1 { transform: translate(155px, 15px); }
+#pyramidBars_d3 text.hidden { display: none; }]]></style><defs
+       id="defs58" /><defs
+       id="defs42" /></defs><rect
+     width="1213"
+     height="50"
+     class="background_title"
+     style="fill:#ffffff"
+     id="rect1"
+     x="284.99063"
+     y="199.00098" /><text
+     class="nv-axislabel"
+     transform="rotate(-90)"
+     y="529.63818"
+     x="-679.08307"
+     style="font-size:14px;text-anchor:middle"
+     dy="15"
+     dx="0"
+     id="text11" /><text
+     class="nv-axislabel"
+     text-anchor="middle"
+     y="768.02765"
+     x="1008.4948"
+     style="font-size:14px"
+     id="text53" /><text
+     id="text58"
+     style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0"
+     x="579.63818"
+     y="263.64276" /><text
+     id="text59"
+     style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0"
+     x="579.63818"
+     y="356.47858" /><text
+     id="text60"
+     style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0"
+     x="579.63818"
+     y="449.31439" /><text
+     id="text61"
+     style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0"
+     x="579.63818"
+     y="542.15021" /><text
+     id="text62"
+     style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0"
+     x="579.63818"
+     y="634.98608" /><g
+     id="g20"
+     transform="matrix(1.5,0,0,1.5,-64.325301,0.73264396)"><text
+       width="1213"
+       height="50"
+       id="chart-title"
+       class="chart-title"
+       text-anchor="middle"
+       x="667.29553"
+       y="58.103043"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#6cbbe6;fill-opacity:1"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:condensed;font-size:42.6667px;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed, Semi-Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#6cbbe6;fill-opacity:1"
+         id="tspan1"><tspan
+           style="fill:#1a1a1a"
+           id="tspan24">Age-standardized </tspan><tspan
+           style="font-weight:bold;fill:#34a1dc;fill-opacity:1"
+           id="tspan23">incidence rates</tspan><tspan
+           style="fill:#1a1a1a"
+           id="tspan25"> (World) in 2020</tspan></tspan></text><text
+       dy="3.8399999"
+       x="292.45782"
+       y="136.84184"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:end"
+       id="text1">Australia</text><text
+       dy="3.8399999"
+       x="292.45782"
+       y="229.67767"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text2">New Zealand</text><text
+       dy="3.8399999"
+       x="292.45782"
+       y="322.51349"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text3">Denmark</text><text
+       dy="3.8399999"
+       x="292.45782"
+       y="415.34933"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text4">The Netherlands</text><g
+       id="g23"><text
+         dy="3.8399999"
+         x="292.45782"
+         y="508.18512"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="text5"><tspan
+           style="font-weight:bold;fill:#1a1a1a"
+           id="tspan21">Norway</tspan></text><rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.719828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none"
+         id="rect22"
+         width="50.140171"
+         height="13.333333"
+         x="188.67409"
+         y="521.53162" /></g><path
+       class="domain"
+       d="m 297.45782,88.103044 v 0 472.966586 0"
+       style="stroke:#000000;stroke-width:0.527061px"
+       id="path10" /><line
+       x1="297.45782"
+       x2="297.45782"
+       y1="561.06958"
+       y2="88.102997"
+       style="stroke:#000000;stroke-width:0.711991px"
+       id="line13" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="297.81445"
+       id="line15"
+       x1="297.81445"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="340.66446"
+       id="line17"
+       x1="340.66446"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="383.51443"
+       id="text18">4.0</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="383.51443"
+       id="line19"
+       x1="383.51443"
+       y1="582.54047"
+       style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="426.36444"
+       id="line21"
+       x1="426.36444"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="469.21445"
+       id="text22">8.0</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="469.21445"
+       id="line23"
+       x1="469.21445"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="512.06445"
+       id="line25"
+       x1="512.06445"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="554.91449"
+       id="text26">12</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="554.91449"
+       id="line27"
+       x1="554.91449"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="597.76447"
+       id="line29"
+       x1="597.76447"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="640.61444"
+       id="text30">16</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="640.61444"
+       id="line31"
+       x1="640.61444"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="683.46442"
+       id="line33"
+       x1="683.46442"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="726.31445"
+       id="text34">20</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="726.31445"
+       id="line35"
+       x1="726.31445"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="769.16449"
+       id="line37"
+       x1="769.16449"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="812.01447"
+       id="text38">24</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="812.01447"
+       id="line39"
+       x1="812.01447"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="854.86444"
+       id="line41"
+       x1="854.86444"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="897.71448"
+       id="text42">28</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="897.71448"
+       id="line43"
+       x1="897.71448"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="940.56445"
+       id="line45"
+       x1="940.56445"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="983.41443"
+       id="text46">32</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="983.41443"
+       id="line47"
+       x1="983.41443"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="1026.2645"
+       id="line49"
+       x1="1026.2645"
+       y1="582.54047" /><text
+       dy="8.5199995"
+       y="585.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="1069.1144"
+       id="text50">36</text><line
+       class="axis_tick"
+       y2="587.54047"
+       x2="1069.1144"
+       id="line51"
+       x1="1069.1144"
+       y1="582.54047" /><line
+       class="axis_tick"
+       y2="582.54047"
+       x2="1111.9645"
+       id="line53"
+       x1="1111.9645"
+       y1="582.54047" /><path
+       class="domain"
+       d="m 297.81445,561.12967 v 0 h 857.00005 v 0"
+       style="stroke:#000000;stroke-width:1px"
+       id="path53" /><text
+       dy="8.5199995"
+       y="582.54047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text54"
+       x="297.81445">0</text><text
+       dy="8.5199995"
+       y="585.55481"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text55"
+       x="1154.4578">40</text><rect
+       id="rect_36_0"
+       width="783.28326"
+       height="88.194031"
+       class="rect"
+       x="297.45782"
+       y="92.744835"
+       style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0" /><rect
+       id="rect_554_0"
+       width="676.45135"
+       height="88.194031"
+       class="rect"
+       x="297.45782"
+       y="185.58066"
+       style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0" /><rect
+       id="rect_208_0"
+       width="636.93445"
+       height="88.194031"
+       class="rect"
+       x="297.45782"
+       y="278.41647"
+       style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0" /><rect
+       id="rect_528_0"
+       width="579.11816"
+       height="88.194031"
+       class="rect"
+       x="297.45782"
+       y="371.25229"
+       style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0" /><rect
+       id="rect_578_0"
+       width="565.93512"
+       height="88.194031"
+       class="rect"
+       x="297.45782"
+       y="464.08813"
+       style="fill:#6cbbe6;fill-opacity:1;stroke:none;stroke-opacity:0" /><text
+       class="legend_bottom"
+       x="691.45782"
+       y="637.21283"
+       text-anchor="middle"
+       id="text80"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">ASR (World) per 100 000</text></g><rect
+     width="1213"
+     height="50"
+     class="background_title"
+     style="fill:#ffffff"
+     id="rect1-4"
+     x="349.63815"
+     y="1314.5083" /><text
+     class="nv-axislabel"
+     transform="rotate(-90)"
+     y="532.16742"
+     x="-1885.5482"
+     style="font-size:14px;text-anchor:middle"
+     dy="15"
+     dx="0"
+     id="text11-8" /><text
+     class="nv-axislabel"
+     text-anchor="middle"
+     y="2434.4661"
+     x="1010.6674"
+     style="font-size:14px"
+     id="text37" /><g
+     id="g19"
+     transform="matrix(1.5,0,0,1.5,-136.4824,-808.52066)"><text
+       dy="3.8399999"
+       x="294.98709"
+       y="1343.307"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text1-2">New Zealand</text><text
+       dy="3.8399999"
+       x="294.98709"
+       y="1528.9788"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text3-8">Montenegro</text><text
+       dy="3.8399999"
+       x="294.98709"
+       y="1621.8145"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text4-2">Slovakia</text><text
+       dy="3.8399999"
+       x="294.98709"
+       y="1714.6503"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text5-4">Slovenia</text><line
+       x2="1156.9871"
+       y2="1807.4861"
+       id="line6-2"
+       x1="299.98709"
+       y1="1807.4861" /><path
+       class="domain"
+       d="m 299.98709,1294.5682 v 0 463.0307 0"
+       style="stroke:#000000;stroke-width:0.704473px"
+       id="path10-1" /><line
+       x1="299.98709"
+       x2="299.98709"
+       y1="1757.5988"
+       y2="1764.5376"
+       style="stroke:#000000;stroke-width:0.0862385px"
+       id="line13-6" /><line
+       class="axis_tick"
+       y2="1781.3888"
+       x2="299.98709"
+       id="line15-8"
+       x1="299.98709"
+       y1="1781.3888" /><line
+       class="axis_tick"
+       y2="1781.3888"
+       x2="371.40375"
+       id="line17-9"
+       x1="371.40375"
+       y1="1781.3888" /><text
+       dy="8.5199995"
+       y="1784.3888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="442.82043"
+       id="text18-0">1.0</text><line
+       class="axis_tick"
+       y2="1786.3888"
+       x2="442.82043"
+       id="line19-4"
+       x1="442.82043"
+       y1="1781.3888" /><line
+       class="axis_tick"
+       y2="1781.3888"
+       x2="514.23706"
+       id="line21-6"
+       x1="514.23706"
+       y1="1781.3888" /><text
+       dy="8.5199995"
+       y="1784.3888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="585.65375"
+       id="text22-6">2.0</text><line
+       class="axis_tick"
+       y2="1786.3888"
+       x2="585.65375"
+       id="line23-0"
+       x1="585.65375"
+       y1="1781.3888" /><line
+       class="axis_tick"
+       y2="1781.3888"
+       x2="657.07043"
+       id="line25-1"
+       x1="657.07043"
+       y1="1781.3888" /><text
+       dy="8.5199995"
+       y="1784.3888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="728.48706"
+       id="text26-8">3.0</text><line
+       class="axis_tick"
+       y2="1786.3888"
+       x2="728.48706"
+       id="line27-5"
+       x1="728.48706"
+       y1="1781.3888"
+       style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000" /><line
+       class="axis_tick"
+       y2="1781.3888"
+       x2="799.90375"
+       id="line29-9"
+       x1="799.90375"
+       y1="1781.3888" /><text
+       dy="8.5199995"
+       y="1784.3888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="871.32037"
+       id="text30-8">4.0</text><line
+       class="axis_tick"
+       y2="1786.3888"
+       x2="871.32037"
+       id="line31-5"
+       x1="871.32037"
+       y1="1781.3888" /><line
+       class="axis_tick"
+       y2="1781.3888"
+       x2="942.73706"
+       id="line33-1"
+       x1="942.73706"
+       y1="1781.3888" /><text
+       dy="8.5199995"
+       y="1784.3888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="1014.1538"
+       id="text34-9">5.0</text><line
+       class="axis_tick"
+       y2="1786.3888"
+       x2="1014.1538"
+       id="line35-0"
+       x1="1014.1538"
+       y1="1781.3888" /><line
+       class="axis_tick"
+       y2="1781.3888"
+       x2="1085.5704"
+       id="line37-3"
+       x1="1085.5704"
+       y1="1781.3888" /><path
+       class="domain"
+       d="m 299.98709,1763.3889 v 0 h 857.00001 v 0"
+       style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="path37" /><text
+       dy="8.5199995"
+       y="1784.3888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text38-3"
+       x="299.98709">0</text><text
+       dy="8.5199995"
+       y="1784.3888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text39"
+       x="1156.9871">6.0</text><g
+       transform="translate(299.98709,1299.21)"
+       class="nv-bar positive"
+       id="g43-4"
+       style="fill:#e65a53;fill-opacity:1;stroke:none;stroke-opacity:0"><rect
+         id="rect_554_1"
+         width="664.58075"
+         height="88.194031"
+         class="rect"
+         x="0"
+         y="0" /><text
+         id="text42-4" /></g><g
+       transform="translate(299.98709,1392.0458)"
+       class="nv-bar positive"
+       id="g44"
+       style="fill:#e65a53;fill-opacity:1;stroke:none;stroke-opacity:0"><rect
+         id="rect_578_1"
+         width="454.90259"
+         height="88.194031"
+         class="rect"
+         x="0"
+         y="0" /><text
+         id="text43" /></g><g
+       transform="translate(299.98709,1484.8816)"
+       class="nv-bar positive"
+       id="g45-9"
+       style="fill:#e65a53;fill-opacity:1;stroke:none;stroke-opacity:0"><rect
+         id="rect_499_1"
+         width="433.54218"
+         height="88.194031"
+         class="rect"
+         x="0"
+         y="0" /><text
+         id="text44-8" /></g><g
+       transform="translate(299.98709,1577.7174)"
+       class="nv-bar positive"
+       id="g46"
+       style="fill:#e65a53;fill-opacity:1;stroke:none;stroke-opacity:0"><rect
+         id="rect_703_1"
+         width="404.29813"
+         height="88.194031"
+         class="rect"
+         x="0"
+         y="0" /><text
+         id="text45" /></g><g
+       transform="translate(299.98709,1670.5533)"
+       class="nv-bar positive"
+       id="g47-6"
+       style="fill:#e65a53;fill-opacity:1;stroke:none;stroke-opacity:0"><rect
+         id="rect_705_1"
+         width="370.27924"
+         height="88.194031"
+         class="rect"
+         x="0"
+         y="0" /><text
+         id="text46-5" /></g><text
+       class="legend_bottom"
+       x="693.98706"
+       y="1833.3888"
+       text-anchor="middle"
+       id="text64-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000">ASR (World) per 100 000</text><g
+       id="g22"><text
+         dy="3.8399999"
+         x="294.98709"
+         y="1436.1428"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="text2-8"><tspan
+           style="font-weight:bold;fill:#1a1a1a"
+           id="tspan20">Norway</tspan></text><rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.719828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none"
+         id="rect21"
+         width="50.140171"
+         height="13.333333"
+         x="191.20335"
+         y="1449.4894" /></g><text
+       width="1213"
+       height="50"
+       id="chart-title-0"
+       class="chart-title"
+       text-anchor="middle"
+       x="715.40027"
+       y="1276.7738"
+       style="font-style:normal;font-variant:normal;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#e65a53;fill-opacity:1"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:condensed;font-size:42.6667px;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed, Semi-Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e65a53;fill-opacity:1"
+         id="tspan1-5"><tspan
+   style="fill:#1a1a1a"
+   id="tspan26">Age-standardized </tspan>mortality<tspan
+   style="font-weight:bold;fill:#e65a53;fill-opacity:1"
+   id="tspan23-0"> rates</tspan><tspan
+   style="fill:#1a1a1a;fill-opacity:1"
+   id="tspan25-2"> (World) in 2020</tspan></tspan></text></g><g
+     id="g18"
+     transform="matrix(1.5,0,0,1.5,-84.882492,-1462.3673)"><text
+       width="200"
+       height="10"
+       class="copyright source"
+       text-anchor="start"
+       x="88.776146"
+       y="2357.5681"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text61-5">Data source:GLOBOCAN 2020</text><text
+       width="280"
+       height="10"
+       class="copyright production"
+       text-anchor="start"
+       x="89.158958"
+       y="2374.4197"
+       xlink:href="http://gco.iarc.fr/today"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text62-6">Graph production: Global Cancer Observatory (http://gco.iarc.fr/)</text><a
+       xlink:href="http://gco.iarc.fr/"
+       id="a62"
+       transform="translate(69.987086,1294.5682)"><rect
+         x="20"
+         y="1051"
+         height="13"
+         width="310"
+         fill="none"
+         id="rect62" /></a><text
+       width="200"
+       height="10"
+       class="copyright all_rights_reserved"
+       text-anchor="start"
+       x="89.987083"
+       y="2394.4353"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans', Arial;-inkscape-font-specification:'Noto Sans, Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="text63-0">© International Agency for Research on Cancer 2023</text><image
+       class="copyright logo"
+       width="374.91577"
+       height="56.237366"
+       x="948.52924"
+       y="2341.5652"
+       xlink:href="data:image/gif;base64,R0lGODlhQAFIAPcAAMje8xSg257J7Orx+oi/6HS25ACY18zg9JPE6tPk9dzq9wCe2k2p35jG6pLE6pzI66fN7cDa8ubv+YzB6KjO7t3q92Gw4o/C6eXu+Vas4KzQ7qDK7MTc82ey4rzY8UKn3lGr4Njn97PU8FCq33y65q7R7tbm9r/Z8crg9KPL7GOw4hqh25bG6nq55Xi55Smi3G6048/i9Wqz42y04/L2/KrP7rrX8fv8/vb5/TWk3Uqp37PT74vA6H675keo3jel3Syj3LLU8KnP7ACV1o7C6Ya+5+vy+87i84W+6HO25Mbd81uu4eXu912u4Wiy43q65tLj9XG141is4DOk3a/S7+Ls94W958nf8+fw+unw+fb6/ZHD6dTl9m+15KzQ7fj7/fX4+9vo9dbm9e3z+brW7zGj3PH2/O/1+16v4QCN0gCP0wCM0gCO0gCS1ACT1QCU1QCL0QCR1ACW1gCQ0wCb2QCX1/j7/gCc2QCa2ACd2f3+//T4/QCQ1ACZ2O3z++zz+/v+//D1/NHj9bfW8LDS7/r7/u70+3e45ejw+vf6/tro95vH6+Ls+NXm9gCO0wCS1T+m3eDs+NTl9UWo3vP4/ASf2z2m3SWi3LHT72ax4qTM7LnW8S+j3Dml3Q2f29no99/s+F+v4dDi9XG25IG85rbV8GCv4enx+kCm3VWs4B+h28Pc88fe86XN7ePt+Nvo94O95wCK0IK85n+85sLb8gCd2jum3aTM7e71+7vY8VOr4L/a8iGi3Eio3////UKn3Tul3SKh29vp90Cn3lmt4IK959Dj9Y7B6KvQ7uPu+e/0+3C15IO85uTt+Gyz4+zy+qXM7b7Z8s3h9Fyt4Gq049Hj9ACJ0PL3/KvP7D6n3o3C6fv8/IC85XW35Cah2z2l3d/r+B6h3M/i80+r4KLL7GSx4pvI65XF6q/R7ZXE6PH2+oi/5let4P39/kSn3Xy55Hy65X+75svg9Nno9ZjG6e/1+oK85Wmy4gCW18Ha8uvy+cLb8ejv+Y3B6Euq3////ywAAAAAQAFIAAAI/wDBiZLwr6DBgwgTKlzIMCEgJTb+NJyYUIIoVwwZiVJAsaNHj5Fatfr08WCgBJJSJnhFqaRLlwoEmXn5coAIAaX80NxpEEQaUhMrENjDk6KeLfL+7cGzxkNRhKTSyGCYYw6dAU+zHnxFh00sFTQ3tXlD9s2QOxC0Zp2iJoJahjX6qJmbR9pbjzrgkGjYqM4dPXcRJkmTT+mCtm9JwMm0UNCbOGpKBC56IU0dBhRollLT5tEjN3PUuDE2+eWLNCdKGxSr5lEdyHQQqV7IYE2PhhrWBAOseoUaDv/0YHGF420POB0WEuGsxsLslz3WMN45SM2dA4ISUJDDZstzj0DYpP9WbScAmwVK/LQaskbWd4S1bwM4FEGarg+ZI7Gb06fIqX+KzNCJKSgUVAE8NQSRwwQmtFAfO5A0wJsio0DyAQkY/JNCH3GYssk/DxRRQUGKJGEJCDUUlMgWPEgwgS2mNFKQHpqM8A07hBR0XHIKdTKHLY/goVNBysjSySifTLBFIgWl4MMHAtxQkACyRPKAJaHIWFAkh1iiCxX/cNCCAAZBcEhhBnnwghpATIARBj2cmGJBmshCCxqpjGjQII4sYIdBI6zBTEERsANMN4zM2AoIthAjgkFnWGHJCJIVhAsBk0DSwQH/3NAAAdIskQo4/+zAKAwmFASEGoOcA4wFJCn/REsowHSQQEGGEHCOBCT80IJECO0yhxvAFdRCGy0UtEMG34zghS//zPcgfgYVIoAOkFgB7D+YjGAJAS39o0k8McAAQnz/9BPLJXKswcYctNgAhxtxrNHIAHSskcYabwCXCxwGyBFLLzvAwa67bCzyDyUL6JtGGsD8s4AjbsSSwT99wGHDPzEYsO8aatxmhhxt5ODwAoH8cwEbD6cxByb/7KhQCGRFgwcfxeoxwsNreNKGHDMRwPLDyUrsiCUto/wPOHfoC/It+fBL0DUZ52gQMXC8oQYcVxhRy8chq5pGHyDfumeffyqlShoT/GPDI04v8N8EQ7ucos5Oq4FAQew4/2xZJP/QoUYecKihQA18ON0HR0DEsUDLnhCFkCZxfCyHEv9UEIccvMDBsikJ8ZDGCoAYhAhG/9SgRssvp7uuHJ7P8eg/MNT9gR2+kLP6vqGI/Tgb6CIwVyhB3CHVACDw0QcplCyzxgu5ZJJGJ/9EEEccdHzQigd8qIGGB7ywYck/JcCxgAfnvOFGCNAYEAcxpeiRhxqF2ZJGHotYwEccrOhxxxx1qAEP2qCGXfzDY7CgxTDSUI6YIUchLEhDMP6hizUUoyAlEA0BqCAXOhTiFW9oAw/W0wZB/GNVb1jEBAjolA6sYQGl6MYa5ACK+e3gH0qIQx+29Y9NBEMNwYDFAP+kh4cG6C8OwPmAaHzQhEIcpDp1yEQmTLGCOeDsHytggwU8UIY1ICFwcWiAPNCwBlv8gwJsMAAF+vEzP8SADW9oBSa6ool/VGJYPrAAEwyghhZ4IACxYAwn1FAHZGwBNAY8iCvqoIYPbIATaeDFP1whB6uIQAWE/M9BZLAGECwkAHCAgRKWwMB/CM97ubhEGpwTjWFNgBB1gAME7CCXbpQiD2wYxD8+MIc4fGAEwWPDHXDxD1isYRKlYoMqFnYz4JyBDo9ohhLm0IZoFAQT1iHmBtjgiX9gQBOi+McA8DAHAJzwN0qZnxIi4QY3mPMftZnBP+7ABgf8IxELYENabFD/AyZNYA0jcCCPEPIBQWmIDSsADCfZUZAtsIEO/2DBGsZRkG7AgQcnTEM37pnPzAgOTIaYxSIA4Yw1jOIfPFjDEhIyCzh04R+MqKTVauOEXUrlH2nbUxzaAIc0qCEOeGgbCuaAB4kAQA0+AIMB2tAPRkiAA1ig4BqOURBirKEGWtDAxv4RKO9UQirQKkEaylCQVbggF/+A5AX+UQhPsKEVCDnH/XTSiEpyYAByiMw/EuCGN6TqIGQEnUNocYsznDENAUWAMIlJj2P+Q4bEaJIshCECCQKGHGtwhk11wNbgrQEVBWlAGj7ALWX+g2ZuYIcUDcAGDqBADQYwQkEIkQbQ//5jM376ByIcYIkhtKENmFsTcPYwvyuwQpm8EUAaOHGNO6jBKf/4QRrIUZB8OOEObZgDAwSaEJrFAQKuiMYQ4oC5gq41TFb5xwzOIwMZQLIJaU3DBgoi3RpIgCyx2pMaFvCPSaRhTgc5zks9oAYhTSkNl+hvGhqgkOoYYBYf4MMbKpUC2EqRGHG4wz9M4dNH0KEHErkjJO4hg0rYRik1SMVS1UAEO7KhjigNZULCg9boThchmVgDDAxiiTWwwBBDcMOtMCAHN0gCx51kiDySsAACbhcBny0IBEb7Dx2sAaMHQcJDndCBD7BhCrtcAwEK4tntgojKmDCtINqpPjfUYf8I+XjtHa4x2zRwtod9Oq0BZqiDOrShQMJNpxpQwAE25KBMbLjEGf5XrE6koY4qYIMaVpADNaSCuwhpgGjK4gY17AUVazgvK9JbDjW0WQ5DQEN85+ToGjDCDUN4BUL8gIdHrOIOQ2hGQgTcQ+vQ+R8QYEMAFAxjhPBpAaUbBhv6IOtFmFp9b5DDAihhiBnklWWWYFgcTv0GK+whAGlogyXyeQ4Xz84KcDgpQsIzHkdT9yChWEPRqhxqZQzhDYr4hwSKfOSDwCINAShdQUoxg1uRQA1sqAUkLG3KNZh5yqT9RagR0gNTt3MIQxjfJHxM5hND2cyLoDIhTAuOex/AD6f/qMB/IjA4ydHWzMf+RxfWEAUt4OAOceBUoImrBgAIwiqG/UcR1qCDQtBhDo1OgwaMAVvMLWINDJUZQnzQGjd8xg186GYT1jCVf5DjoY9dQwdwgAhGYGAmQPhvQRxNgUCQrECF0AQhDLFhNoTCDT5QCK/lEYch6GnoH/DFB9KQloQc+09XcAMb4FsCbg4AEViogB8AoYdAJAMCxBhLCHLABgFQ4hSgIMg/c4ARMjK4Eo740D8aAPWCKKABV0ireNZ+44McYg0Xw+lXheCHe+d730ZGyCaGxYqrxYIdGOjrowaRhot9XMpUXsIaXFBWAUjAAcekgQQwwAhl2PQBHb/N//P/EXLSptkTdihEPlnwDxMs4AOG4EDL63xnPlWiyvL9ByseA2g1WJPnHIALeWVPjJAHabBWR5d0JVBZudUEaXBpUmcQFVBJDRACMSAJg+BbjfAAbFAH0cAI4aAGEDVlC0B3FnAHyJBRrPZo/3Aas7BXBBQDqTMseqN3LvUPgdAVycIIxtMP//ALhNdgaFMQMsAZMVABfWVONYAHxfAKd2AAQyYHj8AIMLAGvZMIvbAAByBDjPEHj7M3qKdL/3AFfGAAgINuQCB77VZ7BpFBQ7AP/6ABEhZ6vqdv/IYQOJBPlYACf7AFBKQBMQBbUdUCaaALDfdwafAL/+AAaVAJM//hA7EACwcAWxxBBHRQboOnMFWmF4sIB3fGeqC1C6YWAMIgV2/ADg2zTPkgTJJTAmvQCwXBfPw1CmlgANNQSXOAVqhQYNRHT6nRBWnwCJzQB2yABwOQCHigBqtQECZTAwmwP5bwA3NhRooxHQYhAGmkSZ3SMMWwB31AMY/gW3SAA4aAB9w0AqFhTi+wBpnxDyZDXRzoBrpggNTzD83wGm9gNgihGDv2D3TTBpxgjnggG5CwBoWHEKWQBrn1DwogBzflEwbQBLG0Fw1DBxagCoODQ3EwBx/QCXA0AAiQBm8wj2rgCBf0OKVgEPazAMTwBmkAfqcxHu+Ih6okBz8wBGn/sGORoD4kgQG+1W8HsQOQ4WZxkGiZ8wZ88AK90D1mhACeKGVrAAmTxEiXAAI7FU68kAZ3sARvsAaSUZAM9g8+ARRy5UkgwgZ5dwb51BT/oD/uUgu3EgFzsACSgwmOEFC9tgIA0gf7MgnEoAZr5VBw8AMSMwducQ2hUDnChDlmgHPFAglsAA3/kAlqsAZu0AJ1AFFWcFMHwQ5sEFkHEQVsMEGs0GQLcA5tQAcz4QEeY5nl5o5qMCeQWUc30AFz4C4LAJSpEEkLQQomNSPd0AZp4Ah3gDn/4ANs0I7CN2k5ZQVzIAcVIAGXUJlqwAApEwMToy94QAsFcQFu8DByoAH//3AKwcAGa3AHBTAHDOUbqvcPkmA8a8AHTgAYleYW/zCbCfEJ0+kySzATkYBqv1cHb6AlCHELfKQGc6AKsvYPszAHLtMNdIAHeiBaZolGeUc+DmmZYRkDuBSf8VAQyAl+/wAKgkAQAyAIoFAQzyAIegIK5EAIM/EQG0AIwGIGCaAIvHEGgkAqOLgSgKEA5CACODAAxgA4OCAC5HBkigAFMxEcADCjwAIIn5AAv1YBgqATdmADG5AqISAJdoAIopAMB6EHn1CiCGEEUBACISAMWCAM/5AP+8Uk3lQD5ECgFQAFdJc5V1oQN6AEG7ADQ1IQTrAGe6EQFpEhBhEDUCqBe/+aEIEABa/AG/9wDZIgCLJlBoMgANEgp/+gDKUgAJigjf/QCJoAAXryD3+ADBSACDgABTj6ClCQMgYhAciwAVcgcBWQAE1qpYF6ENewCQJACwJnBybQCExSCCbABcVhqFQgAB7QpMFBCwJgF8IABYnwByiKK1BwqhUAAeTwVwVhBJggALFXEOAgCM/wHuo6GzygBrUgCIXwBGkwDGqBAyFgA4wEXeu6r/zar/76r99hAi7pBnkVm2pBawiXB78GsAzbsA77sBDrAVNQB3JQC5qoFXYABEOgCsYJsR77sSAbsmoBCH5wjIFhCAOQUyK7sizbsi77sjAbszI7szRbszb/e7M4m7M6u7MNcQY++7NAG7RCO7REW7RGe7RIm7RKu7RM27RO+7RQG7VSO7VUC7VocLVYm7Vau7Vc27Ve+7VgG7ZiO7ZkW7Zme7Zom7Zqu7Zs27ZpawZwG7dyO7d0W7d2e7d4m7d6u7d827d++7eAG7iCO7iEW7iGK7g8m7iKu7iM27iO+7iQG7mSO7mUW7mWe7mlQQiHcKqY27me27D7BgdA8bmkW7r7Kglv4AjzZrqs27pqcQ0hIA9ywQOKIBuue7u4qxBXIIMmIQKy0A3ckA+VJgACQAKH0AD5VRADsAkLm7vOW7kDsAS2kKf3BAEz0ACNkDaQ6QEYIAF+sAOH/0AC+vgP2lAL3Pm86Bu5fzCdnFIQMSADDRAuqJoAkzAHReAEGiCnMZAECCCpq3IL6RvAi5sAewACcHAIZSIDbuq+LdAHwMAObmAKa+AInrCMgAAIGzAKQ3IFccAHJ1ABPHQQdmAHAodTJDwjdpAIktoQgHDCCFEIdrDCbOXC/9DCJewRI+wQNCzAkVsCD6AJcNALTXoBpFA6N2AH2MAdaTAKTcAHVNAAjyMHIkAMaZEPFkAQ/yAAjpAHrFCoCXEOBoDAMHUJdOAdOEQHDMCpDSEABuCDCNEEdFCuBgEDBgBXBUEKBrA3HxEIP7ACGVIIgzATbOzGPAy511AJIrAA1P/AAWTSCpPQNnqwCA+wAoM0ZkugBnZhBpAEAjowBIzwCQwgA3ZwBRTgAX1QA51QKQgBAXDQTf9QHWmATP9wDnAgyxRBALGQBAmxAmx5EB8AB+fVlrGwuhThByTDCHpADHhAZ7isboX8uDVQB8AqAHRwAKuwUeRAAARQAiTwUKMQAayABm1AAUHACNhYC92QBtNAAkYwCCSwDZbgDztACGhgWwghCG1QBwRRBGrAB3cwEyVlDx4xAQc8Y7N3ELWhx//QAXBwGx9hCAbwBogQAoNTHAQtxs/MuHqAATKQB+AADGqADvrQAcRkBsCgC/WwBAyQCbBABVjQAeR1BZjQAlv/rARDwAY3ZEobsAe8EAc20A91kADUWxDNNQeYMwlusFThVAZs8CiUIACZAANblQgXsAEeYAoicAEF/Q/y0AXLkAA/cNAGkdAGwdAOjQGyYAEIQL2lAAPlQAAYAdF+VwT5TAJ+4AB6cQXl0AOImtE7KwgC0AQ5AAQGAByksFV+tAoOUALd0LEd8AakQgXcgQb5EAD5jDla4AQYkAhJ8AYyYAAlQCYIoQM31geVoAJpQAHb0AdukG/EADYYNTJDIDBNwAIFvQrsMUPkNB5jnQY8UAgDgAMSfBunYGJrsAYfQBQPUJn7EgBaYAYGMAQJ8Bo8pQQNwE1uoC+dcMN+fbMk/1AERcgAwrAKn6BuJWAFBUEOeYDFymIF7+AJDroAi0AHYeACBYYVmLAFfqAED+AGfVAKOaDG/6AYPfAKcwACt0CoChAHeQBsaeQAo7BTMXADzoUHHyACDVDQg2cJHqALvcTbZKYGQ1AHJD4EYdMCuCexa0Amh3EBIpCMSlAI0Q0OqJnHlLAFnNEPAjBeBdLdOcsJLQADL5AMOXACD5CSlCADsoEB3dAA6P0PIsAAeNAG+iIHMIAJhzAL4qsBnfcPONAFZ0Api2AAmzAEQFkQNZAG7AAB7fEJ2oUJhWhThWcB8hY4apDT/QAHydIHbUAaycBHIA5Pw/JbbdBpQFELcf8gg6ugBpzVCP1zn2lQCoAQ0YigCG2QBxaN3AXBCU3t4zmbB6mwCLmwAAlWBIZVAnpMAmj1ABowCpXZBp6wBLcgDsWAKrkwDLIQCNGwUYtIC3JZAluw3Mt4EPgcAOWQBiWgB31wB0mwBkUQOG+QouJiZ4BAB2+gJwRNApQwBKpZEJcg1mSWBi2gCDHwCRUEC3tQB25wCTmwAsR5wVQAAnKwkTsw6RJt6XdAFAQdBQUBhFbj6TbLCXfwB6mgBqJwCnrcAmKwV2KMAgcXB2ggAMyAA6DwIjIgDnZQAh+QKiSQKqyAUZDwCGFgBQaPEDn4BhEtIx+QmmrwKHQwBIia5j7/cAN4IAdY4Y96se10QAObDu7wtAYKzdCwMDJuEACqAATZYAE48Npy4AS+IemUju/6vtX+DvA2ywTdMAS3oAYMRgvUZQS8jgApWQp4EsvkAANvsAHIWQl4kAelAAAzsDEQkBkDQH2gMAQyoAJ90AhBZxC8xAd5QBQVt22psiaJRAI69g81f/MEnSzRPSJ+IDiBTtYFwdDuwdoy8gcyIg+DoxMMkAYecANRf+lTL8ZVb/U0SwAeUAd40AUAIA4lkCMxMGb/4AKBgA1t8AGkBAIC0AJ4QAxs4Aa/9QhxMAOhABwogGUkUAWlYAN9UAekMK0I0QJzkXuY0Et50BIEsAa8/wAANZBXTrH4BXHRNhYFEhAPPzX5QF/WDf0PfZMEiAAD4v5adBADO2DiUP8GWKAASQ0QpQpdgHPo379faQgdZNjQ4UOIESVOpFjR4kWMGTVupLgCAjU8Fe4cIJfvn40H/86QMEIAlQFtfOLAIkAHBps2btzEyeNKE6Z/kWYdLIbhRQ0rQ6rdAeCwxho4/Q5WcANHx0FKP9awScOmxT8zctoMOFjEWpd/ux6lmfOmzxoPDiHFOsYQjTWDjeqkiZNGTqNCtdKomSMHzpZ/b/gwwtGHDRxCCKzBOFgmlgaOmTVv5tzZ8+d/qO7YaAXjjZ0GoXg0AUGgxYdQPgKsCTXr0f+QQ3QI9bjDZ2eO1K0P5YAFq1egDnI8CLAS55PDCplMVTtop4cUzAcRkYLEAIKefzgOwTBzsJSuGgc96Oi1ixyxRg4RpIp7cIOuEge5lMuhQpB+NDp5YBV2NtCjABnIKuUDHRI4Ab2DjmFHGtAqtPBCDDNsyAo4LsCgDWL+aUCEf6hA4B8TTNmkAgtGeKOXBgggYYFU7mgggDjaiGORByAAJAEXrrmmBT9ySQOBSN7Iww4Nm3TySSijlJIjUZSkIA5MCqEgiH+kmeCfbtr4QIwtPDBBFmL6aWCBC/igo584hjBlEHKu+CcGHg4iAZFIakGjmKimFHRQQgs1VKMUIFD/IwcdInhAnhT+GWCWa/Dgg40SMFjGF1HKKYIZOuTRhQ1Z3iDioH7IquGWf/5ooQoBBFjAgGGkKeUhEwjIBAZCmMxwjwsI8EMjHP74B1gCDDl0WWabjYgXaQhI45bV/nAgkw88UWGIR9QY5R8BZjkkkn9WIWACN/AgQA1S/kmg3X/i+U+eCxTJQZghKkFkklsbuuWNNNZYQw0GhsXwjzbSUCCjAXRpoNWEF3Z2YooLzUQOcJzwAJIR/iniBzUI02mOSf4RBQ8rUDSljjaGYcGHNgj4hwSTGFnmoAZsMOENFNgJoYMhjGXoCjfU6AMNmNNoIsNr0NAFkYxggGORf2hw/xrqirPW2skr1LhDHFf6UOEfBxzgAAQ1copjAQBGcaUGIfqQQ4Z0ZqgjAFUCWASxfy7Ir5AoAnmljRpOSQKObhzSJQ1PGME5jjg4+EcCRa7hQhHwMJDHlUQU4ac6E+ThghLtQtjjDGlCaOcfPbDAQI9APnlldkVcOSgQQQ6oALw9Fi8iEF+wkOAG0A/AgKEzQvhjjxgk+WJr6KOviMMFwjBAFlDESGIMMzLZqY02+ojvHyXiIKALHdYAP6cfCJEghm//KQEBP2KoQ4Mi4FjgjIYwkGOOfh3kF2v4ShPcYIE24IESGqiDGobQgjfI4B+G0EEc0vYCqDkjDv3IgxoeIf+zM9ChDoaoQRze8AZuoeIfgqgFH9TwBhf84xBqKNok7CBCckXiA20oTF3+AQ01FIABacuE9Ix4xIMU4hRSY8ACNnCIBPSjBL6QYR/6oAY5hCIaB7lACyChATzEwQ3h40EfGlCA5+zBCX84RCm8IQM10OEIpBtaHORwPIb0YA0g+Ecq1CATHYBiCIuyhQuL2IJY0MECfUgD1TJxQZAZ4Aw0qMMb/lCCN9TBAG5gwzD+8QI4cGIEj4iDIjYghzjg4Ql72KTjsrEGA1zChcj4xwbSlodJtEENJkFiL7cmgBBsoQ180MAIYGGGDuDiHzfogCVKIAEMECAJEIhEDVDRAh7/0EFtNohGHyJwkC3c4hRysMEl1AAJDDRAAg2JhhrwwD+GbGENv/gHO9JwiU9gwQFr6AQg/kGMNXTgHxBYwn/IQcB/dCANkADLHeIgiUQYYAjkGgAgzjGHR5iEADLg3wfScKsOrCElhjDAGwaQDzXUQRL/kEUaXvAPTTjCAOTKQRpS4kucUkwJeRCFMe5wARDw4h87+EoCnDADMlDxH8mogQMaMAJ5LKEbfGhDHeRBABggJgJRAJcaShAABJiBGPFjCEr7ILSD8GANPqjnGlKW0DXk6R8UCGgSWVGESrAhcR2AQxEOYgk1SMMOEgXFQTCAhzS89R+BKAUM5KCGhYR0/6QlNYRaBfoPQVqSAmko2T9UsIYT5VS0zTIFG0ggiCs0YaIi6kY3qlCIIsBinQwZxFUacQweDiETtBhoEmYgAV9kYg6bEAUm+jAEPDJEEjoRRUMssIZy/CMDIj1IE9bwsH9sIg1FZEUe2BCHKxokpKFFRWAHO4TC/nMNkCjEQQSAjzQMoQ5ziOwaqEbSN/iBBHAYikr60AZQ1CANGTjIeEd74EP9IQBwMIA5thA5AqyEBAzZBAwIoARl2oCP/zgHG/LgAGXdyQcSeAArgHEHWkCCLSRyyB68O+GDhI0ND8tAGshxEBmsob8PWIMEVcGGWYyhBGuYsIFDY17Cikimiv+YihvekIJEpCINg/hHJqiLX0P0Aw6XBccQhuCHzRIYrqFFcJkFJQF2qGENdIhDKTJhiX88oBtYswMHJnAIUiyiHClIQgswUZ6DEMIJZ2hFHUJAhz64YQ13oDJEepAGNzjgFCYAbB2YIF0b4ywNeYjEKQKQhhngQA5uMMHMiDzmg5RXsBJFhCQGuYgbDCARNmCDJ/6hjlqo4VZWPpEfSjqACKjBAAn4ByzSwAmYDrjAoDVzs6cEjl10oRKPcEIJ4DDhaMCgBID+ByCuUYolUIKOB0lAEQjgiwPwQQe5SOAHUsCFPUTECMEYzKjTwIebggAOGziIBBArhyG8YQ4SXAD/GwIwiTiwQYKZOMxBgMEGwVbyD5lIwyMMUIchLIAVivnAAkIGDTCloQ6ZCEQr//GBNdTBG3/cQS3hoIuDMNwBzqb5k2jRgVVkwRU7YEIA1CA5HGgABggwRiIOYgLs/gMDVOgGLOKjB16wYRcckIYfKlAEucq7C5t8gypY/I9yEI4hlB5CKh7ABmr8Ix9srgMP7qDCJMQh328QhB0WcNYuDMEAcgA4HWiwiP/lYBZumHAM6KAGVATi7o77QzneEIc75GeubYjuP+JOtZpnPkNbwOIkSLADCrQBDQy5xiCs0A1SIEAA5IhRC1oggAowxAZqcAIA+hEKj+cgEBUxQgIU/+Gr22UBBwe5AjmkMXwIIPQffkiAEZY/AD2YIQvx/ocyBtDeP0DfDAPgPvefkblG7KEQAzDYABKgzGcMgHgxlgS3cZCF3YNl+pqn/4WCQIeAiXwIboi9Q3pPi2i4gkgAPoYYFTxQszWIA5L7DAiAgzcgBxt4gTRohfqrQAuEiECogW5gh14ghmkQATsoPitYhhkgAQhghD3Ih3XoAhhoAQQYBEZoBhkIBR1gACfYgv8ADTOQwIBZg0qApwsMQgtEBACYhwpghUXQBTxoAzYQGDfwBPlShTaoBAN4DLYYgktgBjIIgQo4gPGpkAFAgHvIBAJwHCE8w/q7gRKAhCFowmKtiAM6aIISYIRj4Ibm04QkkAZpIIEAeAM1yL82yAMrwAI0LERD/Aw7EIUaQIBzaAUO4J9rCAUWaIhq6IVV+IdCCAERWAQHEIBdQKtDDEVR7IxCcAcYawh5YIpRXEVWjIiAAAA7"
+       id="image79-6" /></g></svg>

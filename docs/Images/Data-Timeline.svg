@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="268.54807mm"
-   height="75.564697mm"
-   viewBox="0 0 268.54806 75.564697"
+   width="268.72894mm"
+   height="97.985252mm"
+   viewBox="0 0 268.72894 97.985252"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
    sodipodi:docname="Data-Timeline.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,20 +24,20 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="0.74394518"
-     inkscape:cx="478.52988"
-     inkscape:cy="96.109232"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="2552"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.50082513"
+     inkscape:cx="396.34593"
+     inkscape:cy="378.37558"
+     inkscape:window-width="1900"
+     inkscape:window-height="1151"
+     inkscape:window-x="1930"
+     inkscape:window-y="39"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="g16">
     <inkscape:page
        x="0"
        y="0"
-       width="268.54807"
-       height="75.564697"
+       width="268.72894"
+       height="97.985252"
        id="page22"
        margin="369.65088 0 138.45107"
        bleed="0" />
@@ -66,7 +66,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-16.715501,-97.803461)">
+     transform="translate(-16.715501,-85.713523)">
     <g
        id="g16"
        transform="translate(1.5088908,47.027096)">
@@ -135,54 +135,48 @@
          id="text7"><tspan
            sodipodi:role="line"
            id="tspan7"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:6.35px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="97.269508"
            y="101.76995">extracted from </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.128px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="97.269508"
-           y="111.51916"
-           id="tspan8">pathology reports</tspan></text>
+           y="112.13483"
+           id="tspan8">pathology reports</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:6.35px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           x="97.269508"
+           y="120.81992"
+           id="tspan1">archived in registry</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:6.77331px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.169333"
          x="206.88484"
-         y="67.934921"
+         y="57.351585"
          id="text10"><tspan
            sodipodi:role="line"
            id="tspan9"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:6.35px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="206.88484"
-           y="67.934921">obtained from </tspan><tspan
+           y="57.351585">obtained from </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.128px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="206.88484"
-           y="77.684128"
-           id="tspan10">melanoma registry</tspan></text>
+           y="67.716476"
+           id="tspan10">Norwegian </tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           x="206.88484"
+           y="78.299812"
+           id="tspan2">Melanoma Registry</tspan></text>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 38.429509,120.73051 H 164.22318"
-         id="path10" />
+         id="path13"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 164.35525,125.97294 -0.13207,-18.56695 M 38.429509,125.95671 v -18.72855 m 0,18.79402 H 164.22318" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.218773px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 164.22319,56.713696 h 86.0045"
-         id="path11" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 38.429509,120.73051 V 107.22816"
-         id="path12" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 164.22318,120.73051 V 107.40599"
-         id="path13" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 164.22319,56.713696 V 74.864107"
-         id="path14" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 250.22769,56.713696 V 74.508457"
-         id="path15" />
+         id="path15"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 250.22769,46.124485 v 28.383972 m -86.0045,-28.371836 v 28.727486 m 0,-28.733745 h 86.0045" />
       <path
          sodipodi:type="star"
          style="fill:#afdde9;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"

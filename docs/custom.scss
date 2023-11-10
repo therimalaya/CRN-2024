@@ -65,7 +65,14 @@ $link-color: #155F83;
 .title-slide.level1 {
   &.huge {
     h1 {
+      text-align: left;
       font-size: 350%;
+      line-height: 75%;
+      font-variant: all-small-caps;
+      color: #3d3d3d;
+      text-shadow: 2px 2px 3px #0f0f0f33;
+      border-left: 5px solid #0f0f0f33;
+      padding-left: 25px;
     }
   }
 }
@@ -98,6 +105,11 @@ $link-color: #155F83;
   .institute ~ p {
     font-size: var(--inst-size);
     color: var(--inst-color);
+
+    span.conf {
+      display: inline-flex;
+      margin-top: 15px;
+    }
   }
   
   .author {
@@ -339,6 +351,13 @@ section:not(.center) .center {
       }
     }
 
+  }
+
+  
+  div.callout-quote.no-icon.callout-style-simple {
+      border-left: solid 1px silver;
+      font-size: 90%;
+      text-align: center;
   }
 
   div.callout-note {

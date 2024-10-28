@@ -1,0 +1,252 @@
+---
+title: "Trends in Invasive Melanoma Thickness in Norway, 1983–2019"
+subtitle: "A Comprehensive Analysis of Melanoma Incidence by Sex, Tumor Thickness, Anatomic Site, and Histopathological Subtype"
+author: "Raju Rimal"
+institute: "Oslo Centre for Biostatistics and Epidemiology, University of Oslo"
+format: 
+  revealjs:
+    theme: default
+    width: 1440
+    height: 900
+---
+
+## {background-image="images/Case-Series-Snow.jpg" background-size="cover"}
+
+::: {.title style="font-size:2em; margin-bottom:3%; margin-top: 7%;"}
+Background
+:::
+
+::: {.columns style="font-size:1.2em;"}
+::: {.column}
+
+#### Monitoring Melanoma Trends
+::: {.callout-note appearance="minimal"}
+Understanding melanoma trends is 
+
+- crucial for prevention and treatment strategies
+- allocating resources effectively and
+- prepare tailored interventions based on recent data
+:::
+
+:::
+::: {.column}
+#### Increased Melanoma Awareness
+::: {.callout-note appearance="minimal"}
+**Increased** public and clinical **awareness** about suspicious pigmented lesions has likely **contributed to more diagnoses of melanoma**, particularly thinner tumors.
+:::
+
+:::
+
+:::
+
+## {.center style="text-align:center;"}
+
+::: {style="font-size:4.5em;"}
+**Aim**
+:::
+
+::: {style="font-size:1.7em;"}
+To assess long-term **melanoma incidence** ***trends*** in Norway, particularly focusing on **tumor thickness**.
+:::
+
+::: {.notes}
+- (1 minute) Background: 30 seconds to discuss the importance of monitoring trends and increased awareness.
+- Objective: 30 seconds.
+:::
+
+# Patients
+
+::: {.columns}
+::: {.column}
+- **Data Sources and Patient Cohort**: 
+
+  - Cancer Registry of Norway (CRN) and Norwegian Melanoma Registry (NMR)
+  - Period: 1983--2019
+  - Patients: 45,524
+  - Criteria: 
+    - Included histologically verified first primary cases
+    - Excluded cases only based on death certificates and autopsy
+:::
+::: {.column}
+- **Tumor Thickness Categories**: 
+  - T1: ≤1 mm, 
+  - T2: >1–2 mm, 
+  - T3: >2–4 mm, 
+  - T4: >4 mm
+- **Additional Variables**: 
+  - Sex, 
+  - Anatomic Site, 
+  - Histopathological Subtype
+:::
+:::
+
+# {.center}
+
+![](images/Summary.png)
+
+# Methods {.center}
+
+::: {.columns}
+::: {.column style="font-size:1.5em"}
+- Multiple Imputation
+- Age-adjusted Incidence Rate
+- Age-specific Incidence Rate over
+    - birth cohort and 
+    - period of diagnosis
+:::
+::: {.column style="font-size:1.5em"}
+**Stratified by:**
+
+- Sex, and T category
+- Anatomic site
+- Histopathological subtype
+- Residential Region
+:::
+:::
+
+
+::: {.notes}
+- (1 minute) Combined Data Source and Patient Cohort: 30 seconds to discuss data sources and patient cohort details.
+- Tumor Categories and Variables: 30 seconds to discuss additional variables and key characteristics.
+:::
+
+
+# Results {style="text-align:center; font-size:1.7em;"}
+
+
+## {.center style="font-size:1.3em;" background-image="images/Spline-BySexTstage-Vertical.svg" background-position="100% 0%" background-size="contain"}
+
+::: {.columns}
+::: {.column width="60%"}
+::: {.title style="font-size:1.7em;"}
+Melanoma Trend
+:::
+
+- **Increased** age-standardized **incidence rates** in all T-categories
+
+- Temporal trend in T1 melanoma
+  - 1983–1989/90: Steep rise
+  - 1990–2004: Plateau
+  - 2005–2019: Sharp increase again
+:::
+::: {.column width="40%"}
+:::
+:::
+
+::: {.notes}
+- (1 minute) Observation: 30 seconds to discuss overall trends.
+- Temporal Trends: 30 seconds to discuss specific time periods.
+:::
+
+## {.center style="font-size:1.3em;" background-image="images/Spline-BySexTstage-Vertical.svg" background-position="100% 0%" background-size="contain"}
+
+::: {.columns}
+::: {.column width="60%"}
+::: {.title style="font-size:1.7em;"}
+Melanoma Trend
+:::
+
+- **Men had higher incidence rates for thicker melanomas** (T2, T3, T4) compared to women. 
+- **Women had a higher incidence of T1 melanomas** at younger ages. 
+- **Steady increases** were noted in **T2 and T4 melanomas**, while **a plateau was observed in T1** during 1990-2004.
+
+:::
+::: {.column width="40%"}
+:::
+:::
+
+::: {.notes}
+- (1 minute) Key Findings: 30 seconds to discuss overall T1 melanoma trends.
+- Sex Differences and T-Categories: 30 seconds to highlight differences and specific trends.
+:::
+
+# Other Variables {.center}
+
+::: panel-tabset
+## Anatomic site
+
+::: {.columns}
+::: {.column width="70%"}
+![](images/Spline-BySexTstageSite.svg)
+:::
+::: {.column width="30%"}
+::: {style="font-size:0.9em;"}
+- T1 melanoma had the highest incidence across all sites. 
+- Key affected sites: Women: Significant increases in incidents on the trunk and lower limbs. 
+- Men: Notable increases in incidents on head/neck and trunk.
+:::
+:::
+:::
+
+
+## Histopathological subtypes
+::: {.columns}
+::: {.column width="60%"}
+![](images/Spline-BySexTstageType.svg)
+:::
+::: {.column width="40%"}
+::: {style="font-size:0.9em;"}
+- Superficial spreading melanoma: 
+  - Trends mirror overall melanoma trends; 
+  - predominantly diagnosed at thinner stages. 
+- Nodular melanoma: 
+  - Highest incidence in thicker tumors; 
+  - significant presence in head/neck and lower limbs for women, and across most sites for men.
+:::
+:::
+:::
+
+
+:::
+
+
+::: {.notes}
+- (1 minute 30 seconds) 
+- Anatomic Sites: 45 seconds to discuss trends in different body sites.
+- Histopathological Subtypes: 45 seconds to explain SSM and NM trends.
+:::
+
+# Public Health Implications
+
+- **Awareness and Early Detection**: Enhanced efforts needed particularly for older adults and men to promote early detection and awareness.
+- **Preventive Measures**: Sun protection and UV exposure reduction campaigns. Educational programs emphasizing the importance of regular skin examinations, development of self-exam mobile apps, community outreach for older populations, and collaboration with primary care providers.
+
+::: {.notes}
+- (1 minute) Awareness and Early Detection: 30 seconds to discuss importance.
+- Preventive Measures: 30 seconds to provide specific campaign ideas.
+:::
+
+# Conclusions and Future Research
+
+- **Summary of Findings**: The incidence of T1 melanomas increased until 1989/90, plateaued, and then rose sharply from 2004/05. There were steady increases in thicker melanomas; higher rates in men and older age groups.
+- **Future Research**: Investigate factors contributing to the observed plateau in T1 melanomas. Explore genetic and environmental factors influencing differences in melanoma trends by anatomic site. Study the impact of evolving histopathological practices on melanoma diagnosis. Evaluate the effectiveness of targeted public health interventions in high-risk demographics. Develop strategies for better screening and early detection, particularly for rapidly growing nodular melanomas.
+
+::: {.notes}
+- (1 minute 30 seconds) 
+- Summary of Findings: 45 seconds to recap key findings.
+- Future Research: 45 seconds to outline potential research areas.
+:::
+
+
+# Q&A
+
+## “What could be the reasons for the plateau observed in T1 melanomas during 1990-2004?”
+  - Possible selection effect due to increased early detection emptying the pool of thin melanomas.
+  - Changes in public health screening and diagnostic practices during this period.
+  - Saturation effect where the most easily detectable cases had already been diagnosed.
+  - Potential changes in UV exposure patterns or protective behaviors.
+
+## “Why do men have higher incidence rates for thicker melanomas?”
+  - Likely due to later detection and less routine self-examination among men.
+  - Differences in health-seeking behavior, with men less likely to visit dermatologists regularly.
+  - Biological differences that might lead to more aggressive disease progression in men.
+
+## “What measures can improve melanoma awareness among older adults?”
+  - Targeted health campaigns focusing on early detection and the importance of regular skin checks.
+  - Collaboration with healthcare providers to stress the significance of skin examinations during routine visits.
+  - Utilizing community outreach programs to educate and screen older adults in accessible settings.
+
+::: {.notes}
+- (1 minute) Be prepared to address these potential questions with concise answers.
+:::
+

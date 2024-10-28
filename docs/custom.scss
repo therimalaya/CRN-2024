@@ -74,6 +74,13 @@ $link-color: #155F83;
       border-left: 5px solid #0f0f0f33;
       padding-left: 25px;
     }
+  &#extra {
+    h1 {
+      color: whitesmoke;
+      border-left-color: #f0f0f099;
+      font-size: 250%;
+    }
+  }
   }
 }
 .title-slide.level1#summary {

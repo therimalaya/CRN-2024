@@ -420,7 +420,7 @@ iwalk(imgs, function(img, name) {
 :::
 :::
 
-# Extra slides {#extra .center .middle .huge background-color="whitesmoke"}
+# Extra slides {#extra .huge background-image="Images/Backgrounds/Extra-Slides.jpg"}
 
 ## Basic characteristics of data
 

@@ -30,6 +30,28 @@ $link-color: #155F83;
 
 /*-- scss:rules --*/
 // General rules ------
+.reveal {
+  .overlay-box {
+    background-color: #f0f0f0cc;
+    padding: 10px;
+    padding-top: 2px;
+    backdrop-filter: blur(2px);
+    border: 2px solid #3d3d3dcc
+  }
+  #side-box-note, #overlay-box-note {
+    margin-top: 5px;
+  }
+  .inverse {
+    :has(div, p, span) {
+      color: #EEEFF1!important;
+    }
+    :has(h1, h2, h3, h4, h5) {
+      color: #E7E9EC!important;
+      font-weight: bolder;
+      text-shadow: 1px 1px 2px whitesmoke;
+    }
+  }
+}
 .large {
   font-size: 115%;
 }
@@ -63,17 +85,20 @@ $link-color: #155F83;
   }
 }
 .title-slide.level1 {
-  &.huge {
-    h1 {
+  .huge {
       text-align: left;
-      font-size: 350%;
+      font-size: 300%;
+      font-weight: bold;
       line-height: 75%;
       font-variant: all-small-caps;
       color: #3d3d3d;
       text-shadow: 2px 2px 3px #0f0f0f33;
-      border-left: 5px solid #0f0f0f33;
-      padding-left: 25px;
-    }
+      border-left: 10px solid #0f0f0f33;
+      padding-left: 15px;
+
+      p {
+        line-height: 0.75;
+      }
   }
 }
 .title-slide.level1#summary {
@@ -424,7 +449,7 @@ section:not(.center) .center {
   overflow-x: hidden;
   
    div {
-    font-size: 70%;
+    font-size: 75%;
     padding-bottom: 10px;
   }
 

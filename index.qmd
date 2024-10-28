@@ -1,11 +1,11 @@
 ---
-title: "Melanoma survival by tumour thickness in Norway, 1983–2019"
+title: "Trends in Invasive Melanoma Thickness in Norway, 1983–2019"
 author: "Raju Rimal"
-date: "15 Nov, 2023"
+date: "30 Oct, 2024"
 institute: |
   Oslo Centre for Biostatistics and Epidemiology (OCBE)<br>
   Department of Biostatistics, UiO<br>
-  <span class="text-green conf" >NOFE-2023, Trondheim</span>
+  Presented at: <span class="text-green conf" >Cancer Registry of Norway</span>
 code-overflow: scroll
 date-format: "DD MMMM YYYY"
 bibliography: References.bib
@@ -20,6 +20,7 @@ execute:
   warning: false
 format: 
   revealjs:
+    center-title-slide: false
     slide-number: true
     auto-animate-easing: ease-in-out
     auto-animate-unmatched: false
@@ -41,6 +42,8 @@ editor_options:
   chunk_output_type: console
 nocite: "@*"
 ---
+
+# {background-image="Images/Journal-Article-Head.jpg" background-size="contain"}
 
 # Somewhere, something incredible is waiting to be known. {.center .quote visibility="hidden"}
 
@@ -69,7 +72,11 @@ American astronomer and science communicator
 ::: {.column width="50%"}
 :::
 
-# Background {#background .huge background-image="Images/Backgrounds/Background.jpg"}
+# {background-image="Images/Backgrounds/Background.jpg"}
+
+::: {.huge}
+Background
+:::
 
 ##  {.center background-image="Images/melo.svg" background-position="10% 50%" background-size="auto 80%" background-opacity="0.5"}
 
@@ -82,43 +89,33 @@ American astronomer and science communicator
 :::
 :::
 
-## Melanoma staging and tumour thickness {.middle}
+## {background-image="Images/SnowField.jpg" background-size="cover"}
 
-::: {.columns .grid style="align-items: start; grid-template-columns: 5fr 2fr;"}
-::: column
-### Tumour thickness (T categories)
-
-![Source: [`https://www.cancerresearchuk.org/about-cancer/melanoma/stages-types/tnm-staging`](https://www.cancerresearchuk.org/about-cancer/melanoma/stages-types/tnm-staging)](Images/T-Stages.svg){width="100%" fig-align="right"}
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Why this study and what we know 
 :::
 
-::: {.column .fragment .fade-left}
-### Clinical stages
+::: {.callout-tip}
+#### Understanding melanoma trends is:
 
-::: small
-::: {.callout-note appearance="default" icon="false"}
-#### Localized
-
-No spread
+- crucial for prevention and treatment strategies
+- allocating resources effectively and
+- prepare tailored interventions based on recent data
 :::
 
-::: {.callout-note appearance="default" icon="false"}
-#### Regional Metastasis
 
-Spread to nearby structure or lymph nodes
-:::
+::: {.callout-note}
+#### Tumour thickness
 
-::: {.callout-note appearance="default" icon="false"}
-#### Distant Metastasis
+- **Tumour thickness** is the most **important prognostic factor**
+- **More thinner tumours are diagnosed** than thicker
 
-Spread to distant body parts
-:::
-:::
-:::
 :::
 
 ```{r}
 #| include: false
 library(data.table)
+library(tidytable)
 library(ggplot2)
 library(stringr)
 library(purrr)
@@ -147,94 +144,138 @@ counts <- readRDS("Data/Counts.Rds")
 #     #FFFCFB #FFFAFA #FCFDE5 #FFF8FA
 -->
 ```
+
 # Research Objective {#aim .center .middle}
 
-To examine ***mortality*** and ***survival*** by ***tumour thickness*** overall and in important subgroups such as *sex* and *clinical stage* in a unique nationwide case series over a 35-year period.
+Describe population-based long-term **trends in melanoma incidence** and **tumour thickness** as well as by sex, age, calendar period, residential region, and anatomic site.
 
-# Case series {#case-series .huge background-image="Images/Backgrounds/Case-Series.jpg"}
+# {background-image="Images/Backgrounds/Case-Series.jpg"}
 
-## Data from Cancer Registry of Norway {.middle}
+::: {.huge}
+Case series 
+:::
+
+
+## {.top}
+
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Data from Cancer Registry of Norway 
+:::
 
 ![](Images/Data-Timeline.svg){width="100%"}
 
-::: {.columns .grid style="grid-template-columns: 1fr max-content; margin-top:0; align-items: flex-start;"}
-::: {style="font-size: 85%;"}
+::: columns
+::: {.column width="80%"}
+::: {.callout-note appearance="minimal"}
 - All histologically verified first primary invasive melanoma
-- Aged between 15 and 90
+- **Variables**: tumour thickness, sex, age at diagnosis, vital status, anatomic site, histopathological subtype
 :::
-::: column
+:::
+
+::: {.column width="20%"}
 ![](Images/Logos/CRN-Logo.svg){fig-align="right" width="100%"}
 :::
 :::
 
+## {.middle}
 
-## Basic characteristics of data
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Tumour thickness categories 
+:::
+
+![Source: [`https://www.cancerresearchuk.org/about-cancer/melanoma/stages-types/tnm-staging`](https://www.cancerresearchuk.org/about-cancer/melanoma/stages-types/tnm-staging)](Images/T-Stages.svg){width="100%" fig-align="left"}
+
+
+## {}
+
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Basic characteristics of data
+:::
 
 ```{r}
-table_data <- data.table(
-  label = c(
-    "Frequency", "Percentage", 
-    "Age at diagnosis", 
-    "Tumour thickness"
+table_data <- list(
+  `1983-1999` = list(
+    `Age at diagnosis, Median (Q1, Q3)` = list(
+      Women = "56 (42, 71)",
+      Men = "59 (46, 71)"
+    ),
+    `Tumour thickness, Median (Q1, Q3)` = list(
+      Women = "1 (0.6, 2)",
+      Men = "1.3 (0.74, 2.8)"
+    )
   ),
-  Men = c("21,864", "48.7", "64 (52-74)", "1.1 (0.7-2.5)"),
-  Women = c("23,053", "51.3", "60 (46-73)", "1 (0.6-1.9)")
+  `2008-2019` = list(
+    `Age at diagnosis, Median (Q1, Q3)` = list(
+      Women = "63 (50, 75)",
+      Men = "67 (56, 76)"
+    ),
+    `Tumour thickness, Median (Q1, Q3)` = list(
+      Women = "0.9 (0.5, 1.8)",
+      Men = "1 (0.6, 2.3)"
+    )
+  )
 )
+
+table_data_df <- table_data %>% 
+  map_df(
+    ~map_df(.x, as_tidytable, .id = "variable"),
+    .id = "period"
+  ) %>% 
+  pivot_longer(cols = c(Women, Men), names_to = "sex") %>%
+  mutate(sex = relevel(as.factor(sex), "Women")) %>% 
+  pivot_wider(names_from = "period", values_from = "value")
 ```
 
 ::: {.columns .grid style="grid-template-columns: 2fr 1fr; align-items: flex-start;"}
 ::: {.column .grid style="grid-template-rows: auto 1fr 1fr;"}
 
-### Age and Thickness
 
+### Age and Thickness
 
 ```{r}
 gt::gt(
-  table_data,
-  rowname_col = "label"
-) %>% gt::tab_stub_indent(
-  rows = matches("Median"),
-  indent = 5
+  table_data_df,
+  rowname_col = "sex",
+  groupname_col = "variable",
+  auto_align = FALSE
 ) %>% gt::tab_style(
-  style = gt::cell_text(weight = "bold"),
-  locations = list(
-    gt::cells_column_labels(),
-    gt::cells_stub(
-      rows = matches("^Age|^Tumour")
-    )
-  )
-) %>% gt::opt_table_font(font = "IBM Plex Mono") %>% 
-  gt::tab_footnote(
-    "Median (IQR)",
-    locations = gt::cells_stub(rows = matches("^Age|^Tumour"))
-  ) %>% 
-  gt::tab_options(
+  style = gt::cell_text(align = "right"),
+  locations = gt::cells_stub()
+) %>% gt::opt_table_font(
+  font = "IBM Plex Mono"
+) %>% gt::tab_options(
     table.width = "100%",
     container.width = "100%",
-    table.font.size = "60%"
+    table.font.size = "60%",
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold"
   )
 ```
 
-::: {.callout-quote appearance="minimal"}
-Men were diagnosed at older age and more advanced stage.
+
+::: {.small .callout-tip appearance="minimal"}
+**Missing tumour** decreased from 3,714 (26.3%) in 1983--1999 to 1,742 (7.7%)
 :::
+
+
 :::
 
 ::: {.column}
-### Clinical stage
+### Notes
 
 ::: {.small}
+::: {.callout-tip appearance="minimal"}
+**Women**: 23,459 (52%) and **Men**: 22,065 (48%)
+:::
+
 ::: {.callout-note appearance="minimal"}
-78% cases were localized melanoma 
+Increased age at diagnosis
 :::
 ::: {.callout-note appearance="minimal"}
-50% of localized were in T1 category
+Reduced Tumour thickness at diagnosis
 :::
 ::: {.callout-note appearance="minimal"}
-T3/T4 were more common in cases with regional and distant metastases
-:::
-::: {.callout-note appearance="minimal"}
-70% distant metastasis cases had unspecified thickness
+Men were diagnsed at older age and thicker tumour than women
 :::
 :::
 :::
@@ -246,132 +287,160 @@ T3/T4 were more common in cases with regional and distant metastases
 (Thickness is the most important prognosis factor in the cases with localized mealnoma)
 :::
 
-# Analysis & Results {#analysis .huge background-image="Images/Backgrounds/Analysis.jpg"}
+# {background-image="Images/Backgrounds/Analysis.jpg"}
 
-## Net survival {.huge .center background-color="#FCFDE5"}
+::: huge
+Analysis & <br>Results 
+:::
 
-**Net survival compares the survival of people with melanoma with those who don't** over a certain period of time.
+## {background-image="Images/Drammen-Wide.jpg" background-size="cover"}
 
-::: {.columns .grid style="grid-template-columns: auto auto;"}
-::: column
-::: {.callout-note appearance="simple" icon="false"}
-Computed as the proportion of observed survivors to the expected survivors in a comparable cohort of patients.
+::: {.huge style="font-size:2.7em; font-weight:bolder; text-shadow: 1px 1px 2px #3d3d3d;"}
+Methods 
+:::
+
+::: {.columns}
+::: {.column width="75%"}
+
+::: r-fit-text
+
+▢ Multiple imputation
+
+::: fragment
+▢ Age-adjusted incidence rates
+:::
+
+::: fragment
+▢ Segmented regression
+:::
+
+:::
+
+:::
+::: {.column width="40%"}
 :::
 :::
 
-::: column
-::: {.callout-note appearance="simple" icon="false"}
-Estimated with Pohar-Perme method and age-adjusted using International International Cancer Survival Standards (ICSS2) weights.
-:::
-:::
-:::
+## {}
 
-## Net survival
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Melanoma incidence trend
+:::
 
 ::: {.columns .small .grid style="grid-template-columns: 1fr 65%; align-content:baseline; align-items:flex-end;"}
 ::: column
 ### By sex and T category
 
-::: {.callout-note appearance="simple" icon="false"}
-More than 10% decrease in net survival with one step increase in T category
+::: {.callout-warning appearance="simple" icon="false"}
+**Increased incidence rates** in all T-categories
 :::
 
-::: {.callout-note appearance="simple" icon="false"}
-Lower net survival in men than women
-:::
-:::
+::: {.callout-warning appearance="simple" icon="false"}
+#### T1 melanoma trend
 
-::: column
-![](plots/net-surv-5.svg){width="100%"}
-:::
-:::
-
-## Net survival
-
-::: {.columns .small .grid style="grid-template-columns: 1fr 65%; align-content:baseline; align-items:flex-end;"}
-::: column
-### Conditional net survival
-
-::: {.callout-note appearance="simple" icon="false"}
-5-year net survival becomes more similar in all T categories after surviving for a certain number of years.
-:::
-
-::: {.callout-note appearance="simple" icon="false"}
-**For example**, patients diagnosed with T2 and T3 melanoma have quite similar 5-year net survival after surviving 10 years.
+  - 1983–1989/90: Steep rise
+  - 1990–2004: Plateau
+  - 2005–2019: Sharp increase again
 :::
 :::
 
 ::: column
-![](plots/condsurv-crn5.svg){width="100%"}
+![](Plots/Spline-BySexTstage.svg){width="100%"}
 :::
 :::
 
-## Cumulative mortality {.huge .center background-color="#FCFDE5"}
+## {}
 
-### (Cumulative incidence of death) {style="color:#3d3d3d;padding-bottom: 2em;"}
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Melanoma incidence trend
+:::
 
-The cumulative incidence of death up to a given time is the probability of an individual dying by that time.
+### By anatomic site
+![](Plots/Spline-BySexTstageSite.svg)
 
-## Localized
+::: {.overlay-box .smaller .fragment .fade-in-then-out .absolute width="30%" height="20%" right="0" top="0"}
+::: {#overlay-box-note .callout-note appearance="default" icon="false"}
+### Overall:
+T1 melanoma had the highest incidence across all sites. 
+:::
+:::
 
-![
-► In T1, more people die from other causes than melanoma.
-](plots/cuminc-local.svg){width="100%"}
+::: {.overlay-box .smaller .fragment .fade-in-then-out .absolute width="30%" height="20%" right="0" top="0"}
+::: {#overlay-box-note .callout-note appearance="default" icon="false"}
+### Overall:
+T1 plateau was not seen for all sites.
+:::
+:::
 
+::: {.overlay-box .smaller .fragment .fade-in-then-out .absolute width="30%" height="24%" right="0" top="0"}
+::: {#overlay-box-note .callout-warning appearance="default" icon="false"}
+### In women:
+High and increasing incidence on the trunk and lower limbs with plateau in T1.
+:::
+:::
 
-## Regional metastasis
+::: {.overlay-box .smaller .fragment .fade-in-then-out .absolute width="30%" height="24%" right="0" top="0"}
+::: {#overlay-box-note .callout-warning appearance="default" icon="false"}
+### In men:
+Highest incidence in trunk but lower incidence in lower limbs than women.
+:::
+:::
 
+::: {.overlay-box .smaller .fragment .absolute width="30%" height="24%" right="0" top="0"}
+::: {#overlay-box-note .callout-warning appearance="default" icon="false"}
+### In men:
+Higher and increasing head/neck incidence compared to women, mainly in thicker melanoma.
+:::
+:::
 
-![
-► More people die from melanoma than other causes in all T categories.
-](plots/cuminc-regional.svg){width="100%"}
+## {}
 
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Melanoma incidence trend
+:::
 
-## Distant metastasis
+### By histopathological subtype
+![](Plots/Spline-BySexTstageType.svg)
 
-![
-► Few cases of thin melanoma, not possible with long follow-up.<br>
-► Cases with unspecified tumour thickness had mortality similar to T3/T4 melanoma.
-](plots/cuminc-distant.svg){width="100%"}
+::: {.smaller .overlay-box .fragment .fade-in-then-out .absolute width="20%" height="60%" right="-5%" top="20%" style="margin-top: 15px;"}
+::: {#side-box-note .callout-note appearance="default"}
+#### Superficial spreading
+- Mirrors overall pattern.
+- Higher in women than men.
+- Stable/ decreasing trend in thicker melanoma.
+- Increasing T2 in the recent years.
+:::
+:::
 
-## Is this the effect of treatment? {.smaller .middle}
+::: {.smaller .overlay-box .fragment .fade-in-then-out .absolute width="20%" height="60%" right="-5%" top="20%" style="margin-top: 15px;"}
+::: {#side-box-note .callout-note appearance="default"}
+#### Nodular
+- Higher incidence of thicker melanoma.
+- Higher in men than women.
+- Stable/decreasing recent incidence trend.
+- Percentage in T3 and T4 was increasing.
+:::
+:::
 
-::: {.columns .grid style="grid-template-columns: 1fr 2fr; align-items: flex-end;"}
+# Summary {#summary .smaller background-image="Images/Mountain-from-plane.jpg" background-position="right" background-size="50% 100%"}
+
+::: columns
 ::: column
-**Melanoma with distant metastasis**
-
-::: {.callout-note appearance="simple" icon="false"}
-Around year 2014, immunotherapy was introduced in Norway for stage IV melanoma.
-:::
-
-::: {.callout-tip appearance="simple" icon="false"}
-Improved survival was observed in 2014--2019 compared to 2008--2013.
-:::
-:::
-
-::: column
-![](plots/cuminc-trt.svg){width="100%"}
-:::
-:::
-
-# Summary {#summary .smaller background-image="Images/Mountain-from-plane.jpg" background-position="right" background-size="auto 100%"}
-
-::: {.columns .grid style="grid-template-columns: 1fr 1fr; align-items: end;"}
-::: {.column .grid style="grid-template-rows: rep(auto, 5)"}
 ::: {.fragment .semi-fade-out fragment-index="1"}
-- Men had worse net survival than women in all T categories
+- Steep increase in thin melanoma until 1989/90 followed by plateau and steep increase again after 2004/05.
 :::
 
 ::: {.fragment .fade-in-then-semi-out fragment-index="1"}
-- With every increase in T category, net survival decreased by more than 10% in both sexes.
+- Higher and more increasing incidence in men than women.
 :::
 
 ::: {.fragment .fade-in-then-semi-out}
-- After surviving a certain number of years, thickness was less relevant
+- Nodular melanoma had higher incidence of thicker tumour, more in men compared to women.
 :::
 
 ::: {.fragment .fade-in-then-semi-out}
-- Improved survival in Stage-IV melanoma after introduction of immunotherapy.
+- Need for increased melanoma awareness in men.
+- Need for more awareness of new and rapidly growing pigmented lesions in older people
 :::
 :::
 
@@ -420,190 +489,21 @@ iwalk(imgs, function(img, name) {
 :::
 :::
 
-# Extra slides {#extra .center .middle .huge background-color="whitesmoke"}
+# {background-image="Images/Backgrounds/Extra-Slides.jpg"}
 
-## Basic characteristics of data
-
-```{r}
-tbl <- readRDS(here::here("Data/Count-1.Rds"))
-tbl_df <- abind::abind(
-  count = tbl %>% addmargins(),
-  overall = proportions(tbl) %>% 
-    addmargins() %>% 
-    apply(1:2, scales::percent, 0.1),
-  bycstage = proportions(tbl, 1) %>% 
-    addmargins() %>% 
-    apply(1:2, scales::percent, 0.1),
-  bytstage = proportions(tbl, 2) %>% 
-    addmargins() %>% 
-    apply(1:2, scales::percent, 0.1), 
-  along = 3, 
-  new.names = c(
-    "frequency",
-    "% overall",
-    "% within Clinical stage",
-    "% within T category"
-  )) %>%
-  aperm(c(3, 2, 1)) %>%
-  purrr::array_tree(3) %>%
-  purrr::map(as.data.table, keep.rownames = "Measure") %>%
-  rbindlist(idcol = "ClinicalStage") %>%
-  .[ClinicalStage != "Sum"] %>%
-  .[ClinicalStage == "Sum", Measure := "Sum"] %>%
-  .[grepl("within T category", Measure), Sum := NA_character_] %>%
-  .[, Measure := purrr::map2_chr(ClinicalStage, Measure, function(x, y) {
-    if (!grepl("clinical stage", y)) {
-      return(y)
-    }
-    gsub("Clinical stage", gsub(" metastasis", "", x), y)
-  })]
-
-get_tbl <- function(tbl_df, stage = NULL) {
-  col_names <- names(tbl_df)[-c(1:2, ncol(tbl_df))]
-  col_abv <- gsub("(^..).*", "\\1", col_names)
-  footnote <- gsub("T. \\((.*)\\)", "\\1", paste(col_abv, col_names, sep = ": ")) %>% 
-    paste(collapse = ", ")
-  
-  tbl_df <- setnames(copy(tbl_df), col_names, col_abv)
-  if (!is.null(stage)) {
-    tbl_df <- tbl_df[grepl(stage, ClinicalStage)]
-  }
-  gt::gt(tbl_df, rowname_col = "Measure", groupname_col = "ClinicalStage") %>%
-  gt::opt_table_font(font = "monospace") %>%
-  gt::sub_missing(missing_text = "") %>%
-  gt::tab_stub_indent(
-    rows = gt::matches("Overall|Within"),
-    indent = 3
-  ) %>%
-  gt::tab_options(
-    table.width = "100%",
-    container.width = "100%",
-    data_row.padding = "1px",
-    row_group.padding = "5px",
-    row_group.font.weight = "bold",
-    column_labels.font.weight = "bold",
-    table.font.size = "50%"
-  ) %>%
-  gt::tab_source_note(
-    source_note = footnote
-  )
-}
-```
-
-### Localized
-
-```{r}
-get_tbl(tbl_df, "Local") %>% gt::tab_style(
-  style = list(
-    gt::cell_fill(color = "firebrick", alpha = 0.15),
-    gt::cell_text(weight = "bold", color = "firebrick")
-  ),
-  locations = list(
-    gt::cells_body(
-      columns = gt::starts_with("T1"),
-      rows = ClinicalStage == "Local" & grepl("overall|Local", Measure)
-    ),
-    gt::cells_body(
-      columns = gt::starts_with("Sum"),
-      rows = ClinicalStage == "Local" & grepl("overall", Measure)
-    )
-  )
-)
-```
-
-::: {.callout-note appearance="minimal"}
--   More than 78% of cases are localized melanoma out of which almost 40% were in T1 category.
--   Out of all localized melanoma almost 50% cases had thinner tumour upto 1mm.
+::: {.huge style="color:#f0f0f0cc;"}
+Extra<br>slides 
 :::
 
-## Basic characteristics of data
+## {}
 
-### Regional metastasis
-
-```{r}
-get_tbl(tbl_df, "Regional") %>% gt::tab_style(
-  style = list(
-    gt::cell_fill(color = "firebrick", alpha = 0.15),
-    gt::cell_text(weight = "bold", color = "firebrick")
-  ),
-  locations = list(
-    gt::cells_body(
-      columns = gt::matches("T3|T4"), 
-      rows = grepl("Regional", ClinicalStage) & grepl("Regional", Measure)
-    )
-  )
-)
-```
-
-::: {.callout-note appearance="minimal"}
-Thicker cases (T3 and T4 categories) were common in melanoma with regional metastasis
+::: {.huge style="font-size:1.5em; font-weight:bolder; text-shadow: 1px 1px 2px #3D3D3D;"}
+Melanoma incidence trend
 :::
 
-## Basic characteristics of data
+### By period and age at diagnosis
+![](Plots/APC-LexisPlot.svg)
 
-### Distant metastasis
-
-```{r}
-get_tbl(tbl_df, "Distant") %>% gt::tab_style(
-  style = list(
-    gt::cell_fill(color = "firebrick", alpha = 0.15),
-    gt::cell_text(weight = "bold", color = "firebrick")
-  ),
-  locations = list(
-    gt::cells_body(
-      columns = gt::matches("Un"), 
-      rows = grepl("Distant", ClinicalStage) & 
-        grepl("Distant", Measure)
-    ),
-    gt::cells_body(
-      columns = gt::matches("Un|Sum"), 
-      rows = grepl("Unsp", ClinicalStage) & 
-        grepl("overall", Measure)
-    )
-  )
-)
-```
-
-::: {.callout-note appearance="minimal"}
--   Almost 70% of the melanoma cases with distant metastasis had thickness unspecified.
--   Around 13% of the cases had unspecified clinical stage and 3% had both clinical stage and thickness missing.
-:::
-
-## Net survival {auto-animate="true" auto-animate-duration="0.25"}
-
-::: {.columns .small .grid style="grid-template-columns: 1fr 65%; align-content:baseline; align-items:flex-end;"}
-::: column
-### By Clinical stage
-
-::: {.callout-note appearance="simple" icon="false"}
--   Patients with thin (T1) localized melanoma have similar survival as general population.
-:::
-:::
-
-::: column
-![](plots/Table-1a-Plot-5v.svg){width="100%"}
-:::
-:::
-
-## Net survival {auto-animate="true" auto-animate-duration="0.25"}
-
-::: {.columns .small .grid style="grid-template-columns: 1fr 65%; align-content:baseline; align-items:flex-end;"}
-::: column
-### By Clinical stage
-
-::: {.callout-note appearance="simple" icon="false"}
--   Patients with thin (T1) localized melanoma have similar survival as general population.
-:::
-
-::: {.callout-note appearance="simple" icon="false"}
--   Distant metastasis cases have low net survival regardless of tumour thickness.
-:::
-:::
-
-::: column
-![](plots/Table-1a-Plot-5v-ann.svg){width="100%"}
-:::
-:::
 
 ##  {background-image="Images/Thank-You.png" background-size="auto 90%"}
 

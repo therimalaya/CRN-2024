@@ -78,14 +78,14 @@ American astronomer and science communicator
 Background
 :::
 
-##  {.center background-image="Images/melo.svg" background-position="10% 50%" background-size="auto 80%" background-opacity="0.5"}
+##  {.center background-image="Images/GLOBOCAN.svg" background-position="right" background-size="50% 90%"}
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="30%"}
+![](Images/melo.svg){width="100%" style="opacity:68%;" fig-align="center"}
 :::
 
-::: {.column width="60%"}
-![](Images/GLOBOCAN.svg){width="100%"}
+::: {.column width="70%"}
 :::
 :::
 
@@ -254,7 +254,7 @@ gt::gt(
 
 
 ::: {.small .callout-tip appearance="minimal"}
-**Missing tumour** decreased from 3,714 (26.3%) in 1983--1999 to 1,742 (7.7%)
+**Missing tumour thickness** decreased from 3,714 (26.3%) in 1983--1999 to 1,742 (7.7%)
 :::
 
 

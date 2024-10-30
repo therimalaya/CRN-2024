@@ -489,6 +489,13 @@ iwalk(imgs, function(img, name) {
 :::
 :::
 
+##  {background-image="Images/Thank-You.png" background-size="auto 90%"}
+
+## References {.smaller}
+
+::: {#refs}
+:::
+
 # {background-image="Images/Backgrounds/Extra-Slides.jpg"}
 
 ::: {.huge style="color:#f0f0f0cc;"}
@@ -504,10 +511,3 @@ Melanoma incidence trend
 ### By period and age at diagnosis
 ![](Plots/APC-LexisPlot.svg)
 
-
-##  {background-image="Images/Thank-You.png" background-size="auto 90%"}
-
-## References {.smaller}
-
-::: {#refs}
-:::

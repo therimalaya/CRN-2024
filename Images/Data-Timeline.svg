@@ -7,7 +7,7 @@
    viewBox="0 0 268.72894 97.985252"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
    sodipodi:docname="Data-Timeline.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,15 +24,16 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="0.50082513"
-     inkscape:cx="396.34593"
-     inkscape:cy="378.37558"
-     inkscape:window-width="1900"
-     inkscape:window-height="1151"
-     inkscape:window-x="1930"
-     inkscape:window-y="39"
+     inkscape:zoom="1.0016503"
+     inkscape:cx="623.47111"
+     inkscape:cy="280.53704"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g16">
+     inkscape:current-layer="g16"
+     showgrid="false">
     <inkscape:page
        x="0"
        y="0"
@@ -90,7 +91,7 @@
          id="text3"><tspan
            sodipodi:role="line"
            id="tspan3"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            x="25.962376"
            y="103.1382">1983</tspan></text>
       <circle
@@ -107,7 +108,7 @@
          id="text4"><tspan
            sodipodi:role="line"
            id="tspan4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            x="151.54439"
            y="103.1382">2007</tspan></text>
       <circle
@@ -124,7 +125,7 @@
          id="text5"><tspan
            sodipodi:role="line"
            id="tspan5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            x="237.51714"
            y="103.1382">2019</tspan></text>
       <text
@@ -135,16 +136,16 @@
          id="text7"><tspan
            sodipodi:role="line"
            id="tspan7"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:6.35px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="97.269508"
            y="101.76995">extracted from </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="97.269508"
-           y="112.13483"
+           y="112.09889"
            id="tspan8">pathology reports</tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:6.35px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="97.269508"
            y="120.81992"
            id="tspan1">archived in registry</tspan></text>
@@ -156,18 +157,20 @@
          id="text10"><tspan
            sodipodi:role="line"
            id="tspan9"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:6.35px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="206.88484"
            y="57.351585">obtained from </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="206.88484"
-           y="67.716476"
-           id="tspan10">Norwegian </tspan><tspan
+           y="67.680527"
+           id="tspan10"><tspan
+   style="font-weight:bold"
+   id="tspan6">Norwegian</tspan> </tspan><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.169333"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.169333"
            x="206.88484"
-           y="78.299812"
+           y="78.263863"
            id="tspan2">Melanoma Registry</tspan></text>
       <path
          id="path13"
